@@ -1,3 +1,72 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+h2 {
+  @apply mt-8 mb-2;
+}
+
+h3 {
+  @apply mt-8 mb-2;
+}
+
+h4 {
+  @apply mt-8 mb-2;
+}
+
+p {
+  @apply my-3;
+}
+
+.card {
+  position: relative;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: currentColor;
+    content: '';
+  }
+
+  &::before {
+    width: 30px;
+    height: 5px;
+  }
+
+  &::after {
+    height: 30px;
+    width: 5px;
+  }
+
+  &--lg {
+    &::before {
+      height: 8px;
+    }
+
+    &::after {
+      width: 8px;
+    }
+  }
+}
+
+// Used for accessible link wrapper. Requires a relative parent.
+.a11y-link-wrap::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  z-index: 10;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+.js-focus-visible .focus-visible {
+  outline: 2px dotted currentColor;
+  outline-offset: 2px;
+}
