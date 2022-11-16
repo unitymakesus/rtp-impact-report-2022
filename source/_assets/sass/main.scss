@@ -70,3 +70,55 @@ p {
   outline: 2px dotted currentColor;
   outline-offset: 2px;
 }
+
+.dialog-container,
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.dialog-container {
+  @apply bg-slate-800;
+
+  z-index: 100;
+  display: flex;
+  overflow-y: auto;
+  animation: fade-in 400ms 200ms both;
+}
+
+.dialog-container[aria-hidden="true"] {
+  display: none;
+}
+
+.dialog-overlay {
+  @apply bg-slate-800;
+
+  animation: fade-in 200ms both;
+}
+
+.dialog-content {
+  @apply bg-slate-800 text-white py-24;
+
+  position: relative;
+  z-index: 100;
+  width: 100%;
+
+  a {
+    color: currentColor;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(10%);
+  }
+}

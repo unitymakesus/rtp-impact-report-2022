@@ -91,7 +91,7 @@
                   <h4 class="text-dark-blue text-xl font-bold mt-0">Crossroads Podcast</h4>
                   <p class="font-bold">Meet Ray Trapp and Sarah Chick at the crossroads of it all. Everything from DEI, talent, the Park, the Triangle Region and beyond.</p>
                 </div>
-                <a href="#">Listen to the Crossroads Podcast</a>
+                <a class="inline-block bg-slate-800 text-white px-6 py-4 self-start font-bold hover:bg-slate-900 focus:bg-slate-900 transition-colors duration-300" href="#">Listen to the Crossroads Podcast</a>
               </div>
             </div>
             <figure class="col-span-4">

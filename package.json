@@ -19,6 +19,7 @@
     "tailwindcss": "^3.1.6"
   },
   "dependencies": {
+    "a11y-dialog": "^7.5.2",
     "focus-visible": "^5.2.0"
   }
 }
