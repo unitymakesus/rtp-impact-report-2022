@@ -21,7 +21,7 @@
       })(document);
     </script>
   </head>
-  <body class="text-black bg-slate-100 font-sans antialiased">
+  <body class="text-black bg-gray font-sans antialiased">
     @yield('body')
   </body>
 </html>

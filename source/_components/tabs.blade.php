@@ -1,7 +1,7 @@
-@props(['lists', 'type'])
+@props(['lists', 'type', 'orientation'])
 
 <div {{ $attributes->merge(['class' => 'tabs mt-12']) }}>
-  <div role="tablist" aria-orientation="vertical" aria-label="">
+  <div role="tablist" aria-orientation="{{ $orientation }}" aria-label="">
     @foreach ($lists as $list)
       <button role="tab" class="text-lg" id="tab-{{ $list->slug }}" aria-selected="{{ $loop->first ? 'true' : 'false' }}" aria-controls="tabpanel-{{ $list->slug }}">{{ $list->label }}</button>
     @endforeach

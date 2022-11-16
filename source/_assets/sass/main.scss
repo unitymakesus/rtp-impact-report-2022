@@ -81,7 +81,7 @@ p {
 }
 
 .dialog-container {
-  @apply bg-slate-800;
+  @apply bg-slate;
 
   z-index: 100;
   display: flex;
@@ -94,13 +94,13 @@ p {
 }
 
 .dialog-overlay {
-  @apply bg-slate-800;
+  @apply bg-slate;
 
   animation: fade-in 200ms both;
 }
 
 .dialog-content {
-  @apply bg-slate-800 text-white py-24;
+  @apply text-white py-24;
 
   position: relative;
   z-index: 100;
@@ -127,14 +127,24 @@ p {
   width: 100%;
   max-width: 1080px;
   display: grid;
-  gap: 3rem;
+  gap: 1rem;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: 2fr 4fr;
+    gap: 3rem;
   }
 
   @media screen and (min-width: 992px) {
     grid-template-columns: 1fr 3fr;
+  }
+
+  &--horizontal {
+    display: block;
+
+    [role="tablist"][aria-orientation="horizontal"] {
+      display: flex;
+      flex-direction: row;
+    }
   }
 
   [role="tablist"] {
@@ -173,4 +183,121 @@ p {
       }
     }
   }
+}
+
+.slider {
+  margin: 0 25px;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 -10px;
+  }
+
+  &__slide {
+    position: relative;
+    overflow: hidden;
+
+    figure {
+      padding: 0;
+      margin: 0;
+      line-height: 0;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &__slide-text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__slide-image-wrap {
+    position: relative;
+  }
+
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-height: 80vh;
+    margin: 10px;
+    line-height: 0;
+
+    > div {
+      width: 100%;
+    }
+  }
+
+  .slick-next,
+  .slick-prev {
+    width: 44px;
+    height: 44px;
+    font-size: 32px;
+    margin-top: 1rem;
+    border: 0;
+    background-color: transparent !important;
+    color: inherit;
+
+    &:focus {
+      outline-offset: 2px;
+      outline: 2px dotted currentColor;
+
+      .slick-next-icon,
+      .slick-prev-icon {
+        color: currentColor;
+      }
+    }
+
+    svg {
+      width: 44px;
+      height: 44px;
+
+      path {
+        fill: currentColor;
+      }
+    }
+  }
+
+  .slick-next {
+    margin-left: 0.5rem;
+  }
+
+  .slick-prev {
+    transform: rotate(180deg);
+    margin-right: 0.5rem;
+  }
+
+  .slick-sr-only {
+    @apply sr-only;
+  }
+
+  .slick-slide {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+  }
+
+  .slick-slide[aria-hidden="true"] {
+    opacity: 0.5;
+  }
+}
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
 }

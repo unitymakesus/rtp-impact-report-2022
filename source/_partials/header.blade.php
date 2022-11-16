@@ -12,7 +12,7 @@
         <button class="underline" role="button" data-a11y-dialog-show="letter-dialog">Read the full letter</button>
       </div>
       <figure class="relative h-full min-h-[320px] lg:col-span-6 bg-white">
-        <img class="absolute top-0 left-0 h-full w-full object-cover" src="https://via.placeholder.com/800X500" alt="" />
+        <img class="lazyload absolute top-0 left-0 h-full w-full object-cover" data-src="https://via.placeholder.com/800X500" alt="" data-expand="-10" />
       </figure>
     </div>
   </div>

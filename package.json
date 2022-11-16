@@ -19,7 +19,10 @@
     "tailwindcss": "^3.1.6"
   },
   "dependencies": {
+    "@accessible360/accessible-slick": "^1.0.1",
     "a11y-dialog": "^7.5.2",
-    "focus-visible": "^5.2.0"
+    "focus-visible": "^5.2.0",
+    "jquery": "^3.6.1",
+    "lazysizes": "^5.3.2"
   }
 }
