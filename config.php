@@ -65,5 +65,31 @@ return [
                 ],
             ],
         ],
+        'supporters' => [
+            'items' => [
+                [
+                    'label' => 'Board of Directors',
+                    'slug' => 'board',
+                    'items' => [
+                        'Jud Bowman, Board Chair',
+                        'Dr. Johnson Akinleye, Chancellor, North Carolina Central University',
+                        'Farad Ali, President & CEO, Asociar',
+                        'Jugh Allen, CRE South Division Head, TD Bank',
+                        'Brooks Bell, Founder & Executive Chairman, Brooks Bell',
+                    ],
+                ],
+                [
+                    'label' => 'Our Staff',
+                    'slug' => 'staff',
+                    'items' => [
+                        'Example Name',
+                        'Example Name',
+                        'Example Name',
+                        'Example Name',
+                        'Example Name',
+                    ],
+                ],
+            ],
+        ],
     ],
 ];

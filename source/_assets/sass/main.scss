@@ -122,3 +122,55 @@ p {
     transform: translateY(10%);
   }
 }
+
+.tabs {
+  width: 100%;
+  max-width: 1080px;
+  display: grid;
+  gap: 3rem;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 2fr 4fr;
+  }
+
+  @media screen and (min-width: 992px) {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  [role="tablist"] {
+    display: flex;
+    flex-direction: column;
+  }
+
+  [role="tab"] {
+    position: relative;
+    display: flex;
+    margin-left: calc(1rem + 30px);
+    margin-bottom: 0.5rem;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      left: calc(-30px - 1rem);
+      width: 30px;
+      height: 30px;
+      background-color: currentColor;
+      content: '';
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    &[aria-selected="true"] {
+      font-weight: bold;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}

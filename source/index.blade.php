@@ -91,7 +91,7 @@
                   <h4 class="text-dark-blue text-xl font-bold mt-0">Crossroads Podcast</h4>
                   <p class="font-bold">Meet Ray Trapp and Sarah Chick at the crossroads of it all. Everything from DEI, talent, the Park, the Triangle Region and beyond.</p>
                 </div>
-                <a class="inline-block bg-slate-800 text-white px-6 py-4 self-start font-bold hover:bg-slate-900 focus:bg-slate-900 transition-colors duration-300" href="#">Listen to the Crossroads Podcast</a>
+                <a class="inline-block bg-slate-800 text-white p-4 self-start hover:bg-slate-900 focus:bg-slate-900 transition-colors duration-300" href="#">Listen to the Crossroads Podcast</a>
               </div>
             </div>
             <figure class="col-span-4">
@@ -122,16 +122,23 @@
 
       <section class="py-16">
         <div class="container">
-          <h2 class="text-5xl lg:text-6xl font-bold">Behind RTP: Research Triangle Foundation</h2>
-          <p>It takes a lot of extraordinary people to make RTP an extraordinary community. They love everything that Research Triangle Park is and what it will become. Driven by the same mission that started RTP in 1959, the Foundation exists to create opportunities that positively impacts all North Carolinians.</p>
+          <div class="max-w-4xl">
+            <h2 class="text-5xl lg:text-6xl font-bold mb-8">Behind RTP: Research Triangle Foundation</h2>
+            <p>It takes a lot of extraordinary people to make RTP an extraordinary community. They love everything that Research Triangle Park is and what it will become. Driven by the same mission that started RTP in 1959, the Foundation exists to create opportunities that positively impacts all North Carolinians.</p>
+          </div>
 
-          <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
+          <div class="max-w-6xl">
+            <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
+            <ul class="grid gap-8 md:grid-cols-12 list-none p-0 m-0">
+              <li class="card text-dark-blue bg-slate-200 p-6 md:col-span-4 font-bold text-lg">Facilitate collaboration between the Triangle universities.</li>
+              <li class="card text-red-600 bg-slate-200 p-6 md:col-span-4 font-bold text-lg">Promote cooperation between universities and industry.</li>
+              <li class="card text-purple bg-slate-200 p-6 md:col-span-4 font-bold text-lg">Create an economic impact for the residents of North Carolina.</li>
+            </ul>
+          </div>
 
-          <ul class="grid gap-8 md:grid-cols-12 list-none p-0 m-0">
-            <li class="card text-dark-blue bg-slate-200 p-6 md:col-span-4 font-bold text-lg">Facilitate collaboration between the Triangle universities.</li>
-            <li class="card text-red-600 bg-slate-200 p-6 md:col-span-4 font-bold text-lg">Promote cooperation between universities and industry.</li>
-            <li class="card text-purple bg-slate-200 p-6 md:col-span-4 font-bold text-lg">Promote cooperation between universities and industry.</li>
-          </ul>
+          <div class="max-w-6xl">
+            <x-tabs :lists="$supporters" type="list" />
+          </div>
         </div>
       </section>
 
