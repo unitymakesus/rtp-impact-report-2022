@@ -1,19 +1,24 @@
 <header class="pt-16">
-  <div class="container relative">
-    <img class="mb-4" src="/assets/images/rtp-logo.svg" alt="RTP" width="100" />
-    <h1 class="text-6xl font-bold max-w-xs">{{ $page->title }}</h1>
-    <img class="relative lg:-mt-24 mb-0" src="/assets/images/hero.png" alt="" />
-    <img class="absolute top-36 lg:top-0 right-0 lg:right-16 max-w-[150px] sm:max-w-[250px] md:max-w-[350px] xl:max-w-[450px]" src="/assets/images/2022.svg" alt="" />
-    <div class="grid gap:4 lg:grid-cols-12 border-y-2 border-current">
-      <div class="card card--lg lg:col-span-6 p-8">
-        <h2 class="font-bold text-2xl mt-0">From the Leadership</h2>
-        <p>Our greatest opportunity now is to look into the future and think about the impact of adding 50% more people to the region between now and 2025. Until now, RTP has been a work venue surrounded by the communities that comprise the Triangle Region. We need to change that. We are pretty unique in that the greatest development potential for the Triangle region is right in the middle of it in RTP. We have 7,000 acres, which is about half the size of Manhattan. As a region, we need to focus on regional transportation, affordable housing, equitable public education, the environment, recreational amenities, our RDU airport and infrastructure. We need to make the right investments to ensure that the attractive characteristics of our region are sustained and enhanced as we grow.</p>
+  <div class="relative">
+    <div class="container">
+      <img class="mb-4" src="/assets/images/rtp-logo.svg" alt="RTP" width="100">
+      <h1 class="relative text-6xl font-bold max-w-xs z-10" aria-label="Community Impact Report">Comm-<br/>unity Impact Report</h1>
+      <img class="absolute top-64 lg:top-8 right-0 xl:right-36 max-w-[150px] sm:max-w-[250px] md:max-w-[350px] xl:max-w-[450px] z-10" src="/assets/images/2022.svg" alt="">
+    </div>
+    <img class="relative lg:-mt-56 mb-0 ml-auto mr-0" src="/assets/images/hero.png" alt="">
 
-        <button class="underline" role="button" data-a11y-dialog-show="letter-dialog">Read the full letter</button>
+    <div class="container">
+      <div class="grid gap:4 lg:grid-cols-12 border-y-2 border-current">
+        <div class="card card--lg lg:col-span-6 p-8">
+          <h2 class="font-bold text-2xl mt-0">From the Leadership</h2>
+          <p>Our greatest opportunity now is to look into the future and think about the impact of adding 50% more people to the region between now and 2025. Until now, RTP has been a work venue surrounded by the communities that comprise the Triangle Region. We need to change that. We are pretty unique in that the greatest development potential for the Triangle region is right in the middle of it in RTP. We have 7,000 acres, which is about half the size of Manhattan. As a region, we need to focus on regional transportation, affordable housing, equitable public education, the environment, recreational amenities, our RDU airport and infrastructure. We need to make the right investments to ensure that the attractive characteristics of our region are sustained and enhanced as we grow.</p>
+
+          <button class="underline" role="button" data-a11y-dialog-show="letter-dialog">Read the full letter</button>
+        </div>
+        <figure class="relative h-full min-h-[320px] lg:col-span-6 bg-white">
+          <img class="lazyload absolute top-0 left-0 h-full w-full object-cover" data-src="https://via.placeholder.com/800X500" alt="" data-expand="-10">
+        </figure>
       </div>
-      <figure class="relative h-full min-h-[320px] lg:col-span-6 bg-white">
-        <img class="lazyload absolute top-0 left-0 h-full w-full object-cover" data-src="https://via.placeholder.com/800X500" alt="" data-expand="-10" />
-      </figure>
     </div>
   </div>
 </header>
@@ -22,15 +27,15 @@
   <div class="dialog-overlay" data-a11y-dialog-hide></div>
   <div class="dialog-content" role="document">
     <div class="container relative">
-      <img class="absolute -top-16 left-8 mb-4" src="/assets/images/rtp-logo.svg" alt="RTP" width="100" />
+      <img class="absolute -top-16 left-8 mb-4" src="/assets/images/rtp-logo.svg" alt="RTP" width="100">
       <button class="absolute -top-12 right-8 text-3xl" type="button" data-a11y-dialog-hide aria-label="Close">
         &times;
       </button>
-      <div class="card card--lg border-y-2 border-gray-400 text-gray-400 p-8 mb-16">
+      <div class="card card--lg border-y-2 border-[#74808A] text-[#74808A] p-8 mb-16">
         <h2 class="text-white font-bold text-2xl mt-0">from the Leadership</h2>
         <div class="text-white clearfix">
           <figure class="md:max-w-[375px] xl:max-w-[570px] lg:float-right lg:ml-12 mb-12">
-            <img class="mb-2" src="https://via.placeholder.com/800X500" alt="" />
+            <img class="mb-2" src="https://via.placeholder.com/800X500" alt="">
             <figcaption class="text-sm">(Left to Right) Scott Levitan, Linda Hall, Ray Trapp, Carolyn Coia, Jess Winiswki</figcaption>
           </figure>
           <div class="text-white">
@@ -48,11 +53,11 @@
           </div>
 
           <div class="flex flex-wrap items-center justify-center">
-            <img class="max-w-xs" src="/assets/images/signatures/example-1.png" alt="Example Signature" />
-            <img class="max-w-xs" src="/assets/images/signatures/example-2.png" alt="Example Signature" />
-            <img class="max-w-xs" src="/assets/images/signatures/example-3.png" alt="Example Signature" />
-            <img class="max-w-xs" src="/assets/images/signatures/example-4.png" alt="Example Signature" />
-            <img class="max-w-xs" src="/assets/images/signatures/example-5.png" alt="Example Signature" />
+            <img class="max-w-xs" src="/assets/images/signatures/example-1.png" alt="Example Signature">
+            <img class="max-w-xs" src="/assets/images/signatures/example-2.png" alt="Example Signature">
+            <img class="max-w-xs" src="/assets/images/signatures/example-3.png" alt="Example Signature">
+            <img class="max-w-xs" src="/assets/images/signatures/example-4.png" alt="Example Signature">
+            <img class="max-w-xs" src="/assets/images/signatures/example-5.png" alt="Example Signature">
           </div>
         </div>
       </div>

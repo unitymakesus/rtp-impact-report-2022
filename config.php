@@ -16,7 +16,7 @@ return [
                 [
                     'title' => 'Charles Hamilton Houston Foundation: Champion Awardee',
                     'logo'  => '/assets/images/logos/charles-hamilton-houston-foundation.png',
-                    'link'  => '',
+                    'link'  => 'https://www.charleshamiltonhoustonfoundation.org',
                 ],
                 [
                     'title' => 'WomenNC',
@@ -56,7 +56,7 @@ return [
                 [
                     'title' => 'Pupasas 4ED for SWIM',
                     'logo'  => '/assets/images/logos/pupusas-for-education.png',
-                    'link'  => '',
+                    'link'  => 'https://www.pupusas4education.com',
                 ],
                 [
                     'title' => 'SOAR Outreach',
