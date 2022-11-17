@@ -10,18 +10,18 @@
         <div class="text-red mb-16">
           <h3 class="font-bold text-6xl mb-4">RTP is</h3>
           <ul class="grid gap-8 lg:grid-cols-12 list-none p-0 m-0">
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">7,000</strong> Acres</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">400+</strong> Established and Startup Companies</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">60,000+</strong> Employees</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-2xl"><strong class="block text-5xl">7,000</strong> Acres</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-2xl"><strong class="block text-5xl">400+</strong> Established and Startup Companies</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-2xl"><strong class="block text-5xl">60,000+</strong> Employees</li>
           </ul>
         </div>
 
         <div class="text-purple">
           <h3 class="font-bold text-6xl mb-4">2022 Growth by the Numbers</h3>
           <ul class="grid gap-8 lg:grid-cols-12 list-none p-0 m-0">
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">+8,000</strong> Jobs Announced</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">$4.7B+</strong> Investments Announced</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">32.57%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-2xl"><strong class="block text-5xl">+8,000</strong> Jobs Announced</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-2xl"><strong class="block text-5xl">$4.7B+</strong> Investments Announced</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-2xl"><strong class="block text-5xl">32.57%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
           </ul>
         </div>
       </div>
@@ -364,9 +364,9 @@
           <div class="max-w-6xl">
             <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
             <ul class="grid gap-8 md:grid-cols-12 list-none p-0 m-0">
-              <li class="card text-dark-blue bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-lg">Facilitate collaboration between the Triangle universities.</li>
-              <li class="card text-red bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-lg">Promote cooperation between universities and industry.</li>
-              <li class="card text-purple bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-lg">Create an economic impact for the residents of North Carolina.</li>
+              <li class="card text-dark-blue bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Facilitate collaboration between the Triangle universities.</li>
+              <li class="card text-red bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Promote cooperation between universities and industry.</li>
+              <li class="card text-purple bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Create an economic impact for the residents of North Carolina.</li>
             </ul>
           </div>
 
