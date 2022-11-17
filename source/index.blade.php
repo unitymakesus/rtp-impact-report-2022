@@ -58,7 +58,9 @@
             </div>
 
             <h3 class="text-xl font-bold text-red">Boxyard Turns One</h3>
-            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="plyr__video-embed">
+              <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-8">
@@ -154,12 +156,16 @@
             </div>
 
             <h3 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h3>
-            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="plyr__video-embed">
+              <iframe src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <p>Revealed at the Horseshoe Groundbreaking on October 18, Joshua Rowsey shares what Hub RTP is all about with this spoken word piece. Joshua is a recording artist, actor, writer, and educator from North Carolina and program director of Durham-based Blackspace.</p>
 
             <h3 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h3>
             <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
-            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="plyr__video-embed">
+              <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-6">

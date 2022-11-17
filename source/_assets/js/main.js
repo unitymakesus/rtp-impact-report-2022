@@ -2,6 +2,7 @@ import 'focus-visible';
 import 'lazysizes';
 import '@accessible360/accessible-slick';
 import A11yDialog from 'a11y-dialog';
+import Plyr from 'plyr';
 import initTabs from './init/initTabs';
 import initSliders from './init/initSliders';
 
@@ -22,4 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (sliders.length) {
     initSliders(sliders);
   }
+
+  const players = Array.from(document.querySelectorAll('.plyr__video-embed')).map(player => new Plyr(player));
 });
