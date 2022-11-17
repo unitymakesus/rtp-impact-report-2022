@@ -3,9 +3,9 @@
     <div class="container">
       <img class="mb-4" src="/assets/images/rtp-logo.svg" alt="RTP" width="100">
       <h1 class="relative text-6xl font-bold max-w-xs z-10" aria-label="Community Impact Report">Comm-<br/>unity Impact Report</h1>
-      <img class="absolute top-64 lg:top-8 right-0 xl:right-36 max-w-[150px] sm:max-w-[250px] md:max-w-[350px] xl:max-w-[450px] z-10" src="/assets/images/2022.svg" alt="">
+      <img class="absolute top-64 lg:top-8 right-0 xl:right-36 max-w-[150px] sm:max-w-[250px] md:max-w-[350px] xl:max-w-[450px] z-10" src="/assets/images/2022.svg" alt="2022">
     </div>
-    <img class="relative lg:-mt-56 mb-0 ml-auto mr-0" src="/assets/images/hero.png" alt="">
+    <img class="relative lg:-mt-56 mb-0 ml-auto mr-0" src="/assets/images/hero.png" alt="Two people looking at viewer, wearing mirror man and mirror woman costumes">
 
     <div class="container">
       <div class="grid gap:4 lg:grid-cols-12 border-y-2 border-current">
