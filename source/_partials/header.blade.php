@@ -32,7 +32,7 @@
         &times;
       </button>
       <div class="card card--lg border-y-2 border-[#74808A] text-[#74808A] p-8 mb-16">
-        <h2 class="text-white font-bold text-2xl mt-0">from the Leadership</h2>
+        <h2 id="letter-dialog-title" class="text-white font-bold text-2xl mt-0">from the Leadership</h2>
         <div class="text-white clearfix">
           <figure class="md:max-w-[375px] xl:max-w-[570px] lg:float-right lg:ml-12 mb-12">
             <img class="mb-2" src="https://via.placeholder.com/800X500" alt="">
