@@ -150,8 +150,7 @@ p {
     display: block;
 
     [role="tablist"][aria-orientation="horizontal"] {
-      display: flex;
-      flex-direction: row;
+      @apply flex flex-col sm:flex-row;
     }
 
     [role="tab"] {
