@@ -59,7 +59,7 @@
 
             <h3 class="text-xl font-bold text-red">Boxyard Turns One</h3>
             <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="grid gap-4 md:grid-cols-12">
@@ -157,14 +157,14 @@
 
             <h3 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h3>
             <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p>Revealed at the Horseshoe Groundbreaking on October 18, Joshua Rowsey shares what Hub RTP is all about with this spoken word piece. Joshua is a recording artist, actor, writer, and educator from North Carolina and program director of Durham-based Blackspace.</p>
 
             <h3 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h3>
             <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
             <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="grid gap-4 md:grid-cols-12">
@@ -242,7 +242,7 @@
 
             <h3 class="text-xl font-bold text-mint">Caffeinate Your Career</h3>
             <p>Caffeinate your Career is a YouTube series that gives an inside look to different career pathways from founders and entrepreneurs at Frontier RTP.</p>
-            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h3 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dicta nulla repellendus, eaque veniam reprehenderit necessitatibus veritatis suscipit blanditiis alias praesentium corporis. Amet ipsam mollitia officia architecto, accusamus error tempora.</p>
@@ -272,13 +272,13 @@
               <figure class="flex items-center justify-center relative min-h-[300px] bg-black bg-opacity-5">
                 <img class="lazyload absolute w-full h-full object-contain object-center max-w-[400px] p-8 mix-blend-multiply" data-src="{{ $recipient->logo }}" alt="" data-expand="-10">
               </figure>
-              <h4 class="mt-4">
+              <span class="mt-4 block">
                 @if ($recipient->link)
                   <a class="a11y-link-wrap hover:underline focus:underline" href="{{ $recipient->link }}">{{ $recipient->title }}</a>
                 @else
                   {{ $recipient->title }}
                 @endif
-              </h4>
+              </span>
             </article>
           @endforeach
         </div>
