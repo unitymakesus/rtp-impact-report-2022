@@ -1,4 +1,4 @@
-<header class="pt-16">
+<header class="pt-16" role="banner">
   <div class="relative">
     <div class="container">
       <img class="mb-4" src="/assets/images/rtp-logo.svg" alt="RTP" width="100">

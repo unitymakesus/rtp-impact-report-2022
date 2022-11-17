@@ -2,7 +2,7 @@
 
 @section('body')
   @include('_partials.header')
-  <main class="overflow-x-hidden">
+  <main class="overflow-x-hidden" role="main">
     <section class="py-16">
       <div class="container">
         <h2 class="text-5xl lg:text-7xl xl:text-9xl font-bold">At-a-Glance</h2>

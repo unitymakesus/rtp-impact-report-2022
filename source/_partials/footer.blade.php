@@ -1,4 +1,4 @@
-<footer class="bg-black text-white py-4">
+<footer class="bg-black text-white py-4" role="contentinfo">
   <div class="container">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8">
       <div class="md:col-span-4">
