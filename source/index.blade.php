@@ -33,9 +33,21 @@
 
         <div class="tabs tabs--horizontal mt-12">
           <div role="tablist" aria-orientation="horizontal" aria-label="">
-            <button role="tab" class="text-3xl font-bold text-red" id="tab-boxyard" aria-selected="true" aria-controls="tabpanel-boxyard">Boxyard RTP</button>
-            <button role="tab" class="text-3xl font-bold text-light-blue" id="tab-hub" aria-selected="false" aria-controls="tabpanel-hub">Hub RTP</button>
-            <button role="tab" class="text-3xl font-bold text-mint" id="tab-frontier" aria-selected="false" aria-controls="tabpanel-frontier">Frontier RTP</button>
+            <h3>
+              <button role="tab" class="text-3xl font-bold text-red" id="tab-boxyard" aria-selected="true" aria-controls="tabpanel-boxyard">
+                Boxyard RTP
+              </button>
+            </h3>
+            <h3>
+              <button role="tab" class="text-3xl font-bold text-light-blue" id="tab-hub" aria-selected="false" aria-controls="tabpanel-hub">
+                Hub RTP
+              </button>
+            </h3>
+            <h3>
+              <button role="tab" class="text-3xl font-bold text-mint" id="tab-frontier" aria-selected="false" aria-controls="tabpanel-frontier">
+                Frontier RTP
+              </button>
+            </h3>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-boxyard" aria-labelledby="tab-boxyard">
             <p>This iconic research park is not just a place to work anymore. RTP is a community of doers and dreamers who want to play at the highest level. Whether it means developing new cures for cancer at a national lab, or sharing locally-brewed drinks at Boxyard, we welcome ideas and people from all shapes and sizes.</p>
@@ -57,14 +69,14 @@
               <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
             </div>
 
-            <h3 class="text-xl font-bold text-red">Boxyard Turns One</h3>
+            <h4 class="text-xl font-bold text-red">Boxyard Turns One</h4>
             <div class="plyr__video-embed">
               <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-8">
-                <h3 class="text-xl font-bold text-red">2022 Growth by the Numbers</h3>
+                <h4 class="text-xl font-bold text-red">2022 Growth by the Numbers</h4>
                 <div class="grid gap-6 sm:grid-cols-2 max-w-xl">
                   <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
                     <strong class="block text-5xl">40</strong> Upcycled Shipping Containers
@@ -81,7 +93,7 @@
                 </div>
               </div>
               <div class="col-span-4">
-                <h3 class="text-xl font-bold text-red">Awards & Accolades</h3>
+                <h4 class="text-xl font-bold text-red">Awards & Accolades</h4>
                 <ul class="list-triangles list-triangles--red">
                   <li>TCREW Champion Award: Best Development Project 2022</li>
                   <li>Triangle Business Journal’s 2022 Space Awards for Top Retail Development (Paywall)</li>
@@ -100,7 +112,7 @@
               </div>
             </div>
 
-            <h3 class="text-xl font-bold text-red">James Beard Finalists</h3>
+            <h4 class="text-xl font-bold text-red">James Beard Finalists</h4>
             <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media, and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability, and culture.</p>
             <div class="grid gap-6 sm:grid-cols-3">
               <figure class="bg-white">
@@ -111,7 +123,7 @@
               </figure>
             </div>
 
-            <h3 class="text-xl font-bold text-red">PopBox Second Cohort</h3>
+            <h4 class="text-xl font-bold text-red">PopBox Second Cohort</h4>
             <p>PopBox is a 320-square-foot rotating shipping container backed by a micro-grant from NC IDEA and Research Triangle Foundation. This initiative aims to scale up women and BIPOC-owned businesses. Durham Tech has also partnered with Boxyard RTP to provide technical assistance and small business counseling to the 2022-2023 selected cohort.</p>
             <p>2021-22 Recipients: Thirteen West, Skyelight Living, Pop Box Gallery, Be Like Missy</p>
             <div class="grid gap-6 sm:grid-cols-2">
@@ -139,7 +151,7 @@
               <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
             </div>
 
-            <h3 class="text-xl font-bold text-light-blue">2022 Growth by the Numbers</h3>
+            <h4 class="text-xl font-bold text-light-blue">2022 Growth by the Numbers</h4>
             <div class="grid gap-6 sm:grid-cols-2 max-w-xl">
               <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
                 <strong class="block text-5xl">100</strong> Acres
@@ -155,13 +167,13 @@
               </div>
             </div>
 
-            <h3 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h3>
+            <h4 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h4>
             <div class="plyr__video-embed">
               <iframe src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p>Revealed at the Horseshoe Groundbreaking on October 18, Joshua Rowsey shares what Hub RTP is all about with this spoken word piece. Joshua is a recording artist, actor, writer, and educator from North Carolina and program director of Durham-based Blackspace.</p>
 
-            <h3 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h3>
+            <h4 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h4>
             <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
             <div class="plyr__video-embed">
               <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -169,14 +181,14 @@
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-6">
-                <h3 class="text-xl font-bold text-light-blue">Experience Center</h3>
+                <h4 class="text-xl font-bold text-light-blue">Experience Center</h4>
                 <ul class="list-triangles list-triangles--light-blue">
                   <li>This year, we opened an immersive Experience Center equipped with a 3D model and VR walkthrough of the development, a display wall with branded items exhibiting Hub’s energy, a breezeway overlooking the construction site, and AV displays featuring travel times and stock tickers of RTP companies.</li>
                   <li>In April we welcomed NAIOP Raleigh Durham and nearly 300 guests on their Bus Tour through the Triangle</li>
                 </ul>
               </div>
               <div class="col-span-6">
-                <h3 class="text-xl font-bold text-light-blue">Awards & Accolades</h3>
+                <h4 class="text-xl font-bold text-light-blue">Awards & Accolades</h4>
                 <ul class="list-triangles list-triangles--light-blue">
                   <li>Huburban Carpool Convos: Take a tour of the Triangle with us and some of the Triangle’s most notable leaders. Here, we discuss what Hub RTP means for our growing region.</li>
                   <li>Durham Bull’s: XX</li>
@@ -185,7 +197,7 @@
             </div>
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-8">
-                <h3 class="text-xl font-bold text-light-blue">Announcements</h3>
+                <h4 class="text-xl font-bold text-light-blue">Announcements</h4>
                 <ul class="list-triangles list-triangles--light-blue md:columns-2 md:gap-12">
                   <li>We will double in population, so what must the Triangle do? Research Triangle Foundation CEO says…</li>
                   <li>The future of RTP: Horseshoe at Hub RTP celebrates groundbreaking on Tuesday</li>
@@ -197,7 +209,7 @@
                 </ul>
               </div>
               <div class="col-span-4">
-                <h3 class="text-xl font-bold text-light-blue">Local Brand Partnerships</h3>
+                <h4 class="text-xl font-bold text-light-blue">Local Brand Partnerships</h4>
                 <ul class="list-disc pl-4">
                   <li class="mb-4">Bee Downtown</li>
                   <li class="mb-4">Usu Candles</li>
@@ -224,7 +236,7 @@
               <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
             </div>
 
-            <h3 class="text-xl font-bold text-mint">2022 Growth by the Numbers</h3>
+            <h4 class="text-xl font-bold text-mint">2022 Growth by the Numbers</h4>
             <div class="grid gap-6 sm:grid-cols-2 max-w-xl">
               <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
                 <strong class="block text-5xl">+200</strong> Free Networking, Fitness, and Educational Events Anually
@@ -240,11 +252,11 @@
               </div>
             </div>
 
-            <h3 class="text-xl font-bold text-mint">Caffeinate Your Career</h3>
+            <h4 class="text-xl font-bold text-mint">Caffeinate Your Career</h4>
             <p>Caffeinate your Career is a YouTube series that gives an inside look to different career pathways from founders and entrepreneurs at Frontier RTP.</p>
             <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <h3 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h3>
+            <h4 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dicta nulla repellendus, eaque veniam reprehenderit necessitatibus veritatis suscipit blanditiis alias praesentium corporis. Amet ipsam mollitia officia architecto, accusamus error tempora.</p>
             <div class="grid gap-6 grid-cols-4">
               <img class="lazyload" data-src="https://via.placeholder.com/600x600" alt="" data-expand="-10">
