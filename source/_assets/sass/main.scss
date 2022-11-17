@@ -69,7 +69,14 @@ p {
 
 .js-focus-visible .focus-visible {
   outline: 2px dotted currentColor;
-  outline-offset: 2px;
+
+  &:not(.btn-offset) {
+    outline-offset: 2px;
+  }
+}
+
+.btn-offset {
+  outline-offset: -4px;
 }
 
 .dialog-container,

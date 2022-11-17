@@ -325,7 +325,7 @@
                   <h4 class="text-dark-blue text-xl font-bold mt-0">Crossroads Podcast</h4>
                   <p class="font-bold">Meet Ray Trapp and Sarah Chick at the crossroads of it all. Everything from DEI, talent, the Park, the Triangle Region and beyond.</p>
                 </div>
-                <a class="inline-block bg-slate text-white p-4 self-start hover:bg-slate-900 focus:bg-slate-900 transition-colors duration-300" href="https://podcasts.apple.com/us/podcast/crossroads-rtp/id1609428599">Listen to the Crossroads Podcast</a>
+                <a class="inline-block bg-slate text-white p-4 self-start hover:bg-slate-900 focus:bg-slate-900 btn-offset transition-colors duration-300" href="https://podcasts.apple.com/us/podcast/crossroads-rtp/id1609428599">Listen to the Crossroads Podcast</a>
               </div>
             </div>
             <figure class="col-span-4">
@@ -388,7 +388,7 @@
               </div>
               <div class="flex sm:flex-col justify-end col-span-3 mt-4 sm:mt-0">
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eecd09ba159047b94f51a2c54_9fd04dd4fb" tabindex="-1" value=""></div>
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="inline-block bg-slate text-white py-2 px-16 self-start hover:bg-slate-900 focus:bg-slate-900 transition-colors duration-300 cursor-pointer">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="inline-block bg-slate text-white py-2 px-16 self-start hover:bg-slate-900 focus:bg-slate-900 btn-offset transition-colors duration-300 cursor-pointer">
               </div>
             </div>
           </form>
