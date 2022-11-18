@@ -2,14 +2,14 @@
   <div class="relative">
     <div class="container">
       <img class="mb-4" src="/assets/images/rtp-logo.svg" alt="RTP" width="100">
-      <h1 class="relative text-6xl font-bold max-w-xs z-10" aria-label="Community Impact Report">Comm-<br/>unity Impact Report</h1>
-      <img class="absolute top-64 lg:top-8 right-0 xl:right-36 max-w-[150px] sm:max-w-[250px] md:max-w-[350px] xl:max-w-[450px] z-10" src="/assets/images/2022.svg" alt="2022">
+      <h1 class="relative text-6xl-mod font-bold max-w-xs z-10" aria-label="Community Impact Report">Comm-<br/>unity Impact Report</h1>
+      <img class="year-img mr-0 ml-auto mt-8 top-48 md:mt-0 lg:top-8 right-0 xl:right-18 2xl:right-36 max-w-[175px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] xl:max-w-[400px] 2xl:max-w-[450px] z-10" src="/assets/images/2022.svg" alt="2022">
     </div>
     <img class="relative lg:-mt-56 mb-0 ml-auto mr-0" src="/assets/images/hero.png" alt="Two people looking at viewer, wearing mirror man and mirror woman costumes">
 
     <div class="container">
       <div class="grid gap:4 lg:grid-cols-12 border-y-2 border-current">
-        <div class="card card--lg lg:col-span-6 p-8">
+        <div class="card card--lg lg:col-span-6 py-8 px-4 lg:px-8">
           <h2 class="font-bold text-2xl mt-0">From the Leadership</h2>
           <p>Our greatest opportunity now is to look into the future and think about the impact of adding 50% more people to the region between now and 2025. Until now, RTP has been a work venue surrounded by the communities that comprise the Triangle Region. We need to change that. We are pretty unique in that the greatest development potential for the Triangle region is right in the middle of it in RTP. We have 7,000 acres, which is about half the size of Manhattan. As a region, we need to focus on regional transportation, affordable housing, equitable public education, the environment, recreational amenities, our RDU airport and infrastructure. We need to make the right investments to ensure that the attractive characteristics of our region are sustained and enhanced as we grow.</p>
 
@@ -31,7 +31,7 @@
       <button class="absolute -top-12 right-8 text-3xl" type="button" data-a11y-dialog-hide aria-label="Close">
         &times;
       </button>
-      <div class="card card--lg border-y-2 border-[#74808A] text-[#74808A] p-8 mb-16">
+      <div class="card card--lg border-y-2 border-[#74808A] text-[#74808A] px-4 lg:px-8 py-8 mb-16">
         <span id="letter-dialog-title" class="h2 text-white font-bold text-2xl mt-0">from the Leadership</span>
         <div class="text-white clearfix">
           <figure class="md:max-w-[375px] xl:max-w-[570px] lg:float-right lg:ml-12 mb-12">

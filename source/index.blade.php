@@ -70,9 +70,7 @@
             </div>
 
             <h4 class="text-xl font-bold text-red">Boxyard Turns One</h4>
-            <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <lite-youtube videoid="O3AkME9hB-4" playlabel="YouTube video player"></lite-youtube>
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-8">
@@ -101,7 +99,7 @@
                   <li>Best of Durham Large Venue for Live Music</li>
                   <li>
                     Best of Durham (Vendors)
-                    <ul class="list-disc pl-4 font-normal mt-2">
+                    <ul class="list-disc pl-0 font-normal mt-2">
                       <li class="mb-2">Lawrence Barbecue: Best Of Durham Barbecue</li>
                       <li class="mb-2">Beyu Caffe: Best Of Durham Coffee Shop</li>
                       <li class="mb-2">Fullsteam Brewery: Best Of Durham Brewery</li>
@@ -114,11 +112,11 @@
 
             <h4 class="text-xl font-bold text-red">James Beard Finalists</h4>
             <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media, and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability, and culture.</p>
-            <div class="grid gap-6 sm:grid-cols-3">
-              <figure class="bg-white">
+            <div class="grid gap-6 grid-cols-2 sm:grid-cols-3">
+              <figure class="bg-white jb-finalist">
                 <img class="lazyload" data-src="/assets/images/logos/fullsteam.png" alt="Fullsteam Brewery" data-expand="-10">
               </figure>
-              <figure class="bg-white">
+              <figure class="bg-white jb-finalist">
                 <img class="lazyload" data-src="/assets/images/logos/lawrence-bbq.png" alt="Lawrence BBQ" data-expand="-10">
               </figure>
             </div>
@@ -168,16 +166,13 @@
             </div>
 
             <h4 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h4>
-            <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <lite-youtube videoid="6NvQR2wsQCQ" playlabel="YouTube video player"></lite-youtube>
             <p>Revealed at the Horseshoe Groundbreaking on October 18, Joshua Rowsey shares what Hub RTP is all about with this spoken word piece. Joshua is a recording artist, actor, writer, and educator from North Carolina and program director of Durham-based Blackspace.</p>
 
             <h4 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h4>
             <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
-            <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <lite-youtube videoid="fn4UN_t75w4" playlabel="YouTube video player"></lite-youtube>
+
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-6">
@@ -210,7 +205,7 @@
               </div>
               <div class="col-span-4">
                 <h4 class="text-xl font-bold text-light-blue">Local Brand Partnerships</h4>
-                <ul class="list-disc pl-4">
+                <ul class="list-disc pl-0 list-inside">
                   <li class="mb-4">Bee Downtown</li>
                   <li class="mb-4">Usu Candles</li>
                   <li class="mb-4">Mystic Farms: Hubourban</li>
@@ -254,7 +249,8 @@
 
             <h4 class="text-xl font-bold text-mint">Caffeinate Your Career</h4>
             <p>Caffeinate your Career is a YouTube series that gives an inside look to different career pathways from founders and entrepreneurs at Frontier RTP.</p>
-            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {{-- <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+            <lite-youtube class="aspect-video w-full" videoid="videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" playlabel="YouTube video player"></lite-youtube>
 
             <h4 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dicta nulla repellendus, eaque veniam reprehenderit necessitatibus veritatis suscipit blanditiis alias praesentium corporis. Amet ipsam mollitia officia architecto, accusamus error tempora.</p>
@@ -278,7 +274,7 @@
         </div>
 
         <h4 class="text-dark-blue font-bold text-xl">2022 Recipients</h4>
-        <div class="grid gap-x-8 gap-y-16 sm:grid-cols-12 mt-4">
+        <div class="grid gap-x-8 gap-y-16 sm:grid-cols-12">
           @foreach ($recipients as $recipient)
             <article class="relative sm:col-span-6 lg:col-span-4">
               <figure class="flex items-center justify-center relative min-h-[300px] bg-black bg-opacity-5">
@@ -319,6 +315,9 @@
 
         <article class="bg-white p-8 max-w-4xl">
           <div class="grid gap-4 md:grid-cols-12">
+            <figure class="col-span-8 sm:col-start-3 sm:col-span-4 md:col-start-1">
+              <img class="lazyload w-[240px] mx-auto" data-src="/assets/images/rtp-crossroads-podcast.jpg" alt="Cover art for the RTP Crossroads Podcast with Ray Trapp." data-expand="-10">
+            </figure>
             <div class="col-span-8">
               <div class="flex flex-col justify-between h-full">
                 <div>
@@ -328,9 +327,6 @@
                 <a class="inline-block bg-slate text-white p-4 self-start hover:bg-slate-900 focus:bg-slate-900 btn-offset transition-colors duration-300" href="https://podcasts.apple.com/us/podcast/crossroads-rtp/id1609428599">Listen to the Crossroads Podcast</a>
               </div>
             </div>
-            <figure class="col-span-4">
-              <img class="lazyload" data-src="/assets/images/rtp-crossroads-podcast.jpg" alt="Cover art for the RTP Crossroads Podcast with Ray Trapp." data-expand="-10">
-            </figure>
           </div>
         </article>
       </div>
@@ -364,9 +360,9 @@
           <div class="max-w-6xl">
             <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
             <ul class="grid gap-8 md:grid-cols-12 list-none p-0 m-0">
-              <li class="card text-dark-blue bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Facilitate collaboration between the Triangle universities.</li>
-              <li class="card text-red bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Promote cooperation between universities and industry.</li>
-              <li class="card text-purple bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Create an economic impact for the residents of North Carolina.</li>
+              <li class="card text-dark-blue bg-black bg-opacity-5 py-6 px-[30px] md:col-span-4 font-bold text-xl">Facilitate collaboration between the Triangle universities.</li>
+              <li class="card text-red bg-black bg-opacity-5 py-6 px-[30px] md:col-span-4 font-bold text-xl">Promote cooperation between universities and industry.</li>
+              <li class="card text-purple bg-black bg-opacity-5 py-6 px-[30px] md:col-span-4 font-bold text-xl">Create an economic impact for the residents of North Carolina.</li>
             </ul>
           </div>
 
@@ -379,16 +375,16 @@
     <section class="py-16">
       <div class="container max-w-5xl">
         <div class="max-w-3xl">
-          <h2 class="text-5xl lg:text-7xl xl:text-9xl font-bold mb-8">Stay in Touch</h2>
+          <h2 class="text-5xl lg:text-7xl xl:text-9xl font-bold mb-8 leading-tight">Stay in Touch</h2>
           <form action="https://us8.list-manage.com/subscribe/post?u=eecd09ba159047b94f51a2c54&amp;id=9fd04dd4fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
             <div class="sm:grid gap-4 sm:grid-cols-12" id="mc_embed_signup_scroll">
               <div class="flex flex-col col-span-9">
                 <label class="text-sm mb-2" for="mce-EMAIL">Email address</label>
-                <input class="email border border-current rounded bg-transparent text-base px-4 py-2" type="email" value="" name="EMAIL" id="mce-EMAIL" required>
+                <input class="email border border-current rounded bg-transparent text-base px-4 py-2 tracking-wide" type="email" value="" name="EMAIL" id="mce-EMAIL" required>
               </div>
               <div class="flex sm:flex-col justify-end col-span-3 mt-4 sm:mt-0">
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eecd09ba159047b94f51a2c54_9fd04dd4fb" tabindex="-1" value=""></div>
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="inline-block bg-slate text-white py-2 px-16 self-start hover:bg-slate-900 focus:bg-slate-900 btn-offset transition-colors duration-300 cursor-pointer">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="inline-block bg-slate text-white py-2 px-16 self-start hover:bg-slate-900 focus:bg-slate-900 btn-offset transition-colors duration-300 cursor-pointer tracking-wide">
               </div>
             </div>
           </form>
