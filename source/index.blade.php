@@ -11,7 +11,7 @@
           <h3 class="font-bold text-6xl mb-4">RTP is</h3>
           <ul class="grid gap-8 lg:grid-cols-12 list-none p-0 m-0">
             <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">7,000</strong> Acres</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">400+</strong> Established and Startup Companies</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">375+</strong> Established and Startup Companies</li>
             <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">60,000+</strong> Employees</li>
           </ul>
         </div>
@@ -21,7 +21,7 @@
           <ul class="grid gap-8 lg:grid-cols-12 list-none p-0 m-0">
             <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">+8,000</strong> Jobs Announced</li>
             <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">$4.7B+</strong> Investments Announced</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">32.57%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">42%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
           </ul>
         </div>
       </div>
@@ -30,6 +30,7 @@
     <section class="bg-slate text-white py-16">
       <div class="container max-w-5xl">
         <h2 class="text-5xl lg:text-7xl xl:text-9xl font-bold text-gray">Community</h2>
+        <p>RTP is more than a workplace. We support a community of doers and dreamers who want to engage and merge their interests to live, work and recreate. Whether it means developing new cures for cancer at a national lab, or sharing locally-brewed drinks at Boxyard, our experience is multicultural and inclusive.</p>
 
         <div class="tabs tabs--horizontal mt-12">
           <div role="tablist" aria-orientation="horizontal" aria-label="">
@@ -38,28 +39,32 @@
             <button role="tab" class="text-3xl font-bold text-mint" id="tab-frontier" aria-selected="false" aria-controls="tabpanel-frontier">Frontier RTP</button>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-boxyard" aria-labelledby="tab-boxyard">
-            <p>This iconic research park is not just a place to work anymore. RTP is a community of doers and dreamers who want to play at the highest level. Whether it means developing new cures for cancer at a national lab, or sharing locally-brewed drinks at Boxyard, we welcome ideas and people from all shapes and sizes.</p>
-
             <p>We celebrated 1 year of small businesses doing big things at Boxyard! This hyper-local cargotecture is a community made up of a diverse mix of entrepreneurs, artists, and creatives.</p>
 
             <div class="slider">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/IMG_9321.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/SoapBox Comedy Show 2.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/SoapBox Comedy Show 1.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/SlowArtTour-ArtGallery-PopBox.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/ArtInBloom.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/8BP08134.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/8BP08822.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/8BP08866.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/20220604-8BP08341.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/20220604-8BP08393.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/20220604-8BP00140.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/IWD-80.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/boxyard/IWD-65.jpg" alt="" data-expand="-10">
             </div>
 
             <h3 class="text-xl font-bold text-red">Boxyard Turns One</h3>
             <div class="plyr__video-embed">
               <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h3 class="text-xl font-bold text-red">Boxyard RTP by CallsonRTKL</h3>
+            <div class="plyr__video-embed">
+              <iframe src="https://www.youtube.com/embed/ZtY5ZFiu0JM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="grid gap-4 md:grid-cols-12">
@@ -70,13 +75,13 @@
                     <strong class="block text-5xl">40</strong> Upcycled Shipping Containers
                   </div>
                   <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
-                    <strong class="block text-5xl">60+</strong> Unique Local Restaurants and Retailers
+                    <strong class="block text-5xl">15+</strong> Unique Local Restaurants and Retailers
                   </div>
                   <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
-                    <strong class="block text-5xl">150+</strong> Events, Including 4+ Days of Live Music Per Week
+                    <strong class="block text-5xl">200+</strong> Events, Including 4+ Days of Live Music Per Week
                   </div>
                   <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
-                    <strong class="block text-5xl">1</strong> Dog Park at Boxyard
+                    <strong class="block text-5xl">1</strong> Dog Park (Barkyard)
                   </div>
                 </div>
               </div>
@@ -122,21 +127,23 @@
             </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-hub" aria-labelledby="tab-hub" hidden>
-            <p>Welcome to Research Triangle Park’s vibrant downtown, Hub RTP. This 100-acre, $1.5B project, will transform RTP into a destination where people can live, work, play, sleep, and stay. This year, we broke ground on a 125,000 square foot office-over-retail trio of buildings named Horseshoe. With construction underway, we anticipate sharing more announcements on residential breaking ground, tenants who are moving in, and more from our hotel developer.</p>
+            <p>Welcome to Research Triangle Park’s vibrant downtown, Hub RTP. This 100-acre, $1.5B project, will transform RTP into a destination where people can live, work, play, sleep, and stay. This year, we broke ground on a 125,000 square foot office-over-retail trio of buildings named Horseshoe. With construction underway, we anticipate sharing more announcements on residential construction starts, tenants who are moving in, and more from our hotel developer.</p>
 
             <div class="slider">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x800" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC09111.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC04128.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC04064.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC03976.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC03420 (2).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC04031.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC03880.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC03509.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC09259.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC09507 (2).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC09146.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC09160 (1).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DSC09091 (1).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/hub/DJI_0152.jpg" alt="" data-expand="-10">
             </div>
 
             <h3 class="text-xl font-bold text-light-blue">2022 Growth by the Numbers</h3>
@@ -171,15 +178,21 @@
               <div class="col-span-6">
                 <h3 class="text-xl font-bold text-light-blue">Experience Center</h3>
                 <ul class="list-triangles list-triangles--light-blue">
-                  <li>This year, we opened an immersive Experience Center equipped with a 3D model and VR walkthrough of the development, a display wall with branded items exhibiting Hub’s energy, a breezeway overlooking the construction site, and AV displays featuring travel times and stock tickers of RTP companies.</li>
-                  <li>In April we welcomed NAIOP Raleigh Durham and nearly 300 guests on their Bus Tour through the Triangle</li>
+                  <li>We opened an immersive Hub Experience Center equipped with a 3D model and VR walkthrough of the development, a display wall with branded items exhibiting Hub’s energy, a breezeway for events, and AV displays featuring travel times and stock tickers of RTP companies.</li>
+                  <li>In April we welcomed <a href="https://naioprd.org/" target="_blank">NAIOP Raleigh Durham</a> and nearly 300 guests on their Bus Tour through the Triangle</li>
                 </ul>
               </div>
               <div class="col-span-6">
-                <h3 class="text-xl font-bold text-light-blue">Awards & Accolades</h3>
+                <h3 class="text-xl font-bold text-light-blue">Huburban Takes Off</h3>
                 <ul class="list-triangles list-triangles--light-blue">
                   <li>Huburban Carpool Convos: Take a tour of the Triangle with us and some of the Triangle’s most notable leaders. Here, we discuss what Hub RTP means for our growing region.</li>
-                  <li>Durham Bull’s: XX</li>
+                  <li>Loved Locally: This year, we partnered up with local fan favorites to amplify Hub’s promise as a destination centered around community, nature, and the best of North Carolina.</li>
+                  <ul>
+                    <li>Bee Downtown</li>
+                    <li>Usu Candles</li>
+                    <li>Mystic Farms: Hubourban</li>
+                    <li>Durham Bulls</li>
+                  </ul>
                 </ul>
               </div>
             </div>
@@ -210,18 +223,18 @@
             <p>Launched in 2015, this innovation community offers free coworking and events designed for people to connect and grow professionally. Once an old IBM campus, the Frontier’s indoor and outdoor office and lab space is home to a third of RTP companies!</p>
 
             <div class="slider">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/1200x600" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/FQ5yVcMWYAAJiFK.jpeg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/FUlQGD_WQAI7qf7.jpeg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/IMG_0019 (1).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/IMG_9920.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/IMG_9664.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/56-IMG_1474.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/96-IMG_1521.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/OTM-Emotional-IQ.JPG" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/DorianBolden-16.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/IWD-22-v2.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/RyanTimms-4.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/assets/images/frontier/DSC02590.jpg" alt="" data-expand="-10">
             </div>
 
             <h3 class="text-xl font-bold text-mint">2022 Growth by the Numbers</h3>
@@ -245,11 +258,7 @@
             <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h3 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dicta nulla repellendus, eaque veniam reprehenderit necessitatibus veritatis suscipit blanditiis alias praesentium corporis. Amet ipsam mollitia officia architecto, accusamus error tempora.</p>
-            <div class="grid gap-6 grid-cols-4">
-              <img class="lazyload" data-src="https://via.placeholder.com/600x600" alt="" data-expand="-10">
-              <img class="lazyload" data-src="https://via.placeholder.com/600x600" alt="" data-expand="-10">
-            </div>
+            <p><a class="underline" href="https://wraltechwire.com/2022/08/29/inside-frontier-rtp-our-latest-triangle-startup-guide-exclusive-report/" target="_blank">WRAL Startup Guide: Inside Frontier RTP</a></p>
           </div>
         </div>
       </div>
@@ -259,7 +268,7 @@
       <div class="container max-w-5xl">
         <h2 class="text-dark-blue text-5xl lg:text-7xl xl:text-9xl font-bold">DEI+ Partnerships</h2>
         <div class="max-w-2xl">
-          <p>Diversity, equity, inclusion and belonging is crucial to the growth of RTP. As we break down the silos across RTP companies to collaborate and synergize our efforts, we benefit from the resulting advancement in talent attraction, contributing to better business outcomes for all. We recognize that the next generation of leaders not only values, but represents, a diverse and equal workforce.</p>
+          <p>During our 300 in 100 RTP company interviews, we learned that diversity, equity, inclusion and belonging is crucial to the success of our stakeholders. As we blur silos across RTP companies to collaborate and synergize our efforts, we benefit from the resulting advancement in talent attraction, contributing to better business outcomes.</p>
 
           <h3 class="text-dark-blue font-bold text-2xl">STEM RTP</h3>
           <p>The Research Triangle Park Charitable Fund, in partnership with the RTP Diversity, Equity and Inclusion (DEI) Collective announced the second cohort for the STEM RTP grant.⁠⁠These funds are awarded to programs working at the intersection of STEM and diversity, equity, and inclusion.</p>
@@ -305,7 +314,7 @@
           </div>
         </div>
 
-        <article class="bg-white p-8 max-w-4xl">
+        <article class="bg-white p-8 max-w-4xl mb-8">
           <div class="grid gap-4 md:grid-cols-12">
             <div class="col-span-8">
               <div class="flex flex-col justify-between h-full">
@@ -321,6 +330,13 @@
             </figure>
           </div>
         </article>
+
+        <div>
+          <h4 class="text-dark-blue text-xl font-bold mt-4">Breaking the Bias Annual Event</h4>
+          <img class="max-w-xl lazyload" data-src="/assets/images/other/IWD-44.jpg" alt="" data-expand="-10">
+          <p>On International Women’s Day, we asked women leaders across RTP to share their thoughts about success, their leadership styles and the benefits of working within RTP.</p>
+          <p><a class="underline" href="https://wraltechwire.com/2022/03/09/women-of-rtp-demand-that-execs-break-the-bias-do-more-to-improve-equality/">Check out what we learned</a></p>
+        </div>
       </div>
     </section>
 
@@ -330,14 +346,16 @@
           <h3 class="text-2xl font-bold uppercase mb-4">News</h3>
 
           <div class="grid gap-8 sm:gap-y-16 sm:grid-cols-12">
-            @for ($i = 0; $i < 12; $i++)
+            @foreach ($news_items as $news)
               <article class="relative sm:col-span-6 lg:col-span-4">
-                <img class="lazyload mb-2" data-src="https://via.placeholder.com/800X500" alt="" data-expand="-10">
+                <figure class="relative h-0 pb-48 overflow-hidden mb-2">
+                  <img class="lazyload absolute object-cover w-full h-full" src="{{ $news->image }}" alt="">
+                </figure>
                 <h4 class="inline-block mt-0">
-                  <a class="hover:underline focus:underline a11y-link-wrap" href="#">U.S. FDA authorizes Eli Lilly’s COVID-19 antibody drug</a>
+                  <a class="hover:underline focus:underline a11y-link-wrap" href="{{ $news->url }}">{{ $news->title }}</a>
                 </h4>
               </article>
-            @endfor
+            @endforeach
           </div>
         </div>
       </section>
@@ -346,7 +364,7 @@
         <div class="container max-w-5xl">
           <div class="max-w-4xl">
             <h2 class="text-5xl lg:text-6xl font-bold mb-8">Behind RTP: Research Triangle Foundation</h2>
-            <p>It takes a lot of extraordinary people to make RTP an extraordinary community. They love everything that Research Triangle Park is and what it will become. Driven by the same mission that started RTP in 1959, the Foundation exists to create opportunities that positively impacts all North Carolinians.</p>
+            <p>It takes a lot of extraordinary people to make RTP an extraordinary community. Research Triangle Foundation rigorously tests its activities against the feedback we receive from RTP companies and our communities.  Our mission established in 1959 remains relevant today - the Foundation exists to create opportunities that positively impact all North Carolinians.</p>
           </div>
 
           <div class="max-w-6xl">
