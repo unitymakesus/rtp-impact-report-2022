@@ -1,10 +1,11 @@
 <?php
 
 return [
-    'production' => false,
-    'baseUrl' => '',
-    'title' => 'Community Impact Report',
-    'description' => 'Website description.',
+    'production'  => false,
+    'baseUrl'     => 'https://rtp-impact-report-2022.test',
+    'prodUrl'     => 'https://impact-report.rtp.org/2022',
+    'title'       => '2022 Community Impact Report',
+    'description' => 'A selection of stories highlighting people, partnerships and developments that united our community of 375+ companies and 60,000+ employees in 2022.',
     'collections' => [
         'news_items' => [
             'items' => [
