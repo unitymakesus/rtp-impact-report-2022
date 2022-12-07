@@ -280,6 +280,19 @@ p {
     }
   }
 
+  .slick-track {
+    display: flex !important;
+  }
+
+  .slick-slide {
+    height: inherit !important;
+
+    img {
+      height: 200px;
+      object-fit: contain;
+    }
+  }
+
   .slick-next {
     margin-left: 0.5rem;
   }
