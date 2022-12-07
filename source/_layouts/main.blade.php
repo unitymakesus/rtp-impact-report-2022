@@ -11,14 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG6GRWCE4F"></script>
     <script>
-      window.Userback = window.Userback || {};
-      Userback.access_token = '10960|75401|G0cCbrFH9G7QCSQUl6rYqBu3e';
-      (function(d) {
-        var s = d.createElement('script');s.async = true;
-        s.src = 'https://static.userback.io/widget/v1.js';
-        (d.head || d.body).appendChild(s);
-      })(document);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MG6GRWCE4F');
     </script>
   </head>
   <body class="text-black bg-gray font-sans antialiased">
