@@ -34,7 +34,7 @@ return [
                     'image' => 'https://files.rtp.org/wp-content/uploads/2021/09/20145418/IMG_8656-2-scaled.jpg',
                 ],
                 [
-                    'title' => 'A ‘hotebed’ for life sciences – RTP featured in new visual, interactive report',
+                    'title' => 'A ‘hotbed’ for life sciences – RTP featured in new visual, interactive report',
                     'url'   => 'https://wraltechwire.com/2022/01/18/a-hotbed-for-life-sciences-rtp-featured-in-new-visual-interactive-report/',
                     'image' => 'https://wraltechwire1.wpenginepowered.com/wp-content/uploads/2022/01/BioNC_BioSpace_Heat_Map-1205x640.jpg',
                 ],
@@ -111,7 +111,7 @@ return [
                                 'Jud Bowman, Founder & CEO, Sift Media, Board Chair',
                                 'Dr. Johnson Akinleye, Chancellor, North Carolina Central University',
                                 'Farad Ali, President & CEO, Asociar',
-                                'Jugh Allen, CRE South Division Head, TD Bank',
+                                'Hugh Allen, CRE South Division Head, TD Bank',
                                 'Brooks Bell, Founder & Executive Chairman, Brooks Bell',
                                 'Anita R. Brown-Graham, Professor of Public Law & Government, UNC Chapel Hill',
                                 'John F.A.V. Cecil, President, Biltmore Farms, LLC',
@@ -137,7 +137,7 @@ return [
                         ],
                     ],
                     'additional' => [
-                        'desc' => 'We want to thank the following Trustees whose terms are expiring for their commitment and service to the Research Triangle Foundation Board. Your leadership and counsel are much appreciated and has guided our success.',
+                        'desc' => 'We want to thank the following Trustees whose terms are expiring for their commitment and service to the Research Triangle Foundation Board. Your leadership and counsel are much appreciated and have guided our success.',
                         'names' => [
                             'Michael J. Goodman, Senior Vice President, Capitol Broadcasting Company (CBC)',
                             'Dr. Tallman Trask, III, Executive Vice President Emeritus, Duke University'

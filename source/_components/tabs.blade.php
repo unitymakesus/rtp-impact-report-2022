@@ -19,7 +19,7 @@
         @endforeach
         @if ($list->additional)
           <div class="mt-8">
-            <p class="font-medium">{{ $list->additional['desc'] }}</p>
+            <p class="font-bold">{{ $list->additional['desc'] }}</p>
             <ul class="md:columns-2 gap-3">
               @foreach ($list->additional['names'] as $name)
                 <li class="mb-4 text-sm break-inside-avoid">{{ $name }}</li>

@@ -19,8 +19,8 @@
         <div class="text-purple">
           <h3 class="font-bold text-6xl mb-4">2022 Growth by the Numbers</h3>
           <ul class="grid gap-8 lg:grid-cols-12 list-none p-0 m-0">
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">+8,000</strong> Jobs Announced</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">$4.7B+</strong> Investments Announced</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">1,600</strong> Jobs Announced</li>
+            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">$887.1M</strong> Investments Announced</li>
             <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">42%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
           </ul>
         </div>
@@ -30,7 +30,7 @@
     <section class="bg-slate text-white py-16">
       <div class="container max-w-5xl">
         <h2 class="text-5xl lg:text-7xl xl:text-9xl font-bold text-gray">Community</h2>
-        <p>RTP is more than a workplace. We support a community of doers and dreamers who want to engage and merge their interests to live, work and recreate. Whether it means developing new cures for cancer at a national lab, or sharing locally-brewed drinks at Boxyard, our experience is multicultural and inclusive.</p>
+        <p>RTP is more than a workplace. We support a community of doers and dreamers who want to engage and merge their interests to live, work and recreate. Whether it means developing new cures for cancer at a national lab or sharing locally-brewed drinks at Boxyard, our experience is multicultural and inclusive.</p>
 
         <div class="tabs tabs--horizontal mt-12">
           <div role="tablist" aria-orientation="horizontal" aria-label="">
@@ -39,7 +39,7 @@
             <button role="tab" class="text-3xl font-bold text-mint" id="tab-frontier" aria-selected="false" aria-controls="tabpanel-frontier">Frontier RTP</button>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-boxyard" aria-labelledby="tab-boxyard">
-            <p>We celebrated 1 year of small businesses doing big things at Boxyard! This hyper-local cargotecture is a community made up of a diverse mix of entrepreneurs, artists, and creatives.</p>
+            <p>We celebrated 1 year of small businesses doing big things at Boxyard! This hyper-local cargotecture is a community made up of a diverse mix of entrepreneurs, artists and creatives.</p>
 
             <div class="slider">
               <img class="lazyload" data-src="/assets/images/boxyard/IMG_9321.jpg" alt="" data-expand="-10">
@@ -58,11 +58,12 @@
             </div>
 
             <h3 class="text-xl font-bold text-red">Boxyard Turns One</h3>
-            <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="mb-8">
+              <div class="plyr__video-embed">
+                <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
 
-            <h3 class="text-xl font-bold text-red">Boxyard RTP by CallsonRTKL</h3>
             <div class="plyr__video-embed">
               <iframe src="https://www.youtube.com/embed/ZtY5ZFiu0JM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -106,7 +107,7 @@
             </div>
 
             <h3 class="text-xl font-bold text-red">James Beard Finalists</h3>
-            <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media, and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability, and culture.</p>
+            <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability and culture.</p>
             <div class="grid gap-6 sm:grid-cols-3">
               <figure class="bg-white">
                 <img class="lazyload" data-src="/assets/images/logos/fullsteam.png" alt="Fullsteam Brewery" data-expand="-10">
@@ -169,10 +170,10 @@
             <p>Revealed at the Horseshoe Groundbreaking on October 18, Joshua Rowsey shares what Hub RTP is all about with this spoken word piece. Joshua is a recording artist, actor, writer, and educator from North Carolina and program director of Durham-based Blackspace.</p>
 
             <h3 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h3>
-            <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
             <div class="plyr__video-embed">
               <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-6">
@@ -186,36 +187,43 @@
                 <h3 class="text-xl font-bold text-light-blue">Huburban Takes Off</h3>
                 <ul class="list-triangles list-triangles--light-blue">
                   <li>Huburban Carpool Convos: Take a tour of the Triangle with us and some of the Triangle’s most notable leaders. Here, we discuss what Hub RTP means for our growing region.</li>
-                  <li>Loved Locally: This year, we partnered up with local fan favorites to amplify Hub’s promise as a destination centered around community, nature, and the best of North Carolina.</li>
-                  <ul>
-                    <li>Bee Downtown</li>
-                    <li>Usu Candles</li>
-                    <li>Mystic Farms: Hubourban</li>
-                    <li>Durham Bulls</li>
-                  </ul>
                 </ul>
               </div>
             </div>
             <div class="grid gap-4 md:grid-cols-12">
-              <div class="col-span-8">
+              <div class="col-span-12">
                 <h3 class="text-xl font-bold text-light-blue">Announcements</h3>
-                <ul class="list-triangles list-triangles--light-blue md:columns-2 md:gap-12">
-                  <li>We will double in population, so what must the Triangle do? Research Triangle Foundation CEO says…</li>
-                  <li>The future of RTP: Horseshoe at Hub RTP celebrates groundbreaking on Tuesday</li>
-                  <li>First ‘Hub RTP’ project starts construction; more projects to come A ‘new downtown for RTP’ and ‘a brand new RTP:’ Horseshoe at the Hub project is underway</li>
-                  <li>Tired of commuting to RTP? Pretty soon you’ll be able to live there. (Paywall)</li>
-                  <li>Research Triangle Park will soon have something for the first time ever: residents</li>
-                  <li>Hub RTP update: Park’s first apartments coming soon to planned urban campus</li>
-                  <li>TBD/CONFIDENTIAL: Data443 announced as the first tenant for Horseshoe at Hub RTP</li>
+                <ul class="list-triangles list-triangles--light-blue md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-4">
+                  <li><a class="hover:underline focus:underline" href="https://wraltechwire.com/2022/05/24/we-will-double-in-population-so-what-must-triangle-do-research-triangle-foundation-ceo-says/">We will double in population, so what must the Triangle do? Research Triangle Foundation CEO says…</a></li>
+                  <li><a class="hover:underline focus:underline" href="https://wraltechwire.com/2022/10/17/the-future-of-rtp-horseshoe-at-hub-rtp-celebrates-groundbreaking-on-tuesday/">The future of RTP: Horseshoe at Hub RTP celebrates groundbreaking on Tuesday</a></li>
+                  <li><a class="hover:underline focus:underline" href="https://www.cbs17.com/news/first-hub-rtp-project-starts-construction-more-projects-to-come/">First ‘Hub RTP’ project starts construction; more projects to come A ‘new downtown for RTP’ and ‘a brand new RTP:’ Horseshoe at the Hub project is underway</a></li>
+                  <li><a class="hover:underline focus:underline" href="https://www.newsobserver.com/news/business/real-estate-news/article267471178.html">Tired of commuting to RTP? Pretty soon you’ll be able to live there. (Paywall)</a></li>
+                  <li><a class="hover:underline focus:underline" href="https://greensboro.com/news/state-and-regional/research-triangle-park-will-soon-have-something-for-the-first-time-ever-residents/article_bba7f900-50b3-11ed-aff4-5f0b513314ee.html">Research Triangle Park will soon have something for the first time ever: residents</a></li>
+                  <li><a class="hover:underline focus:underline" href="https://www.newsobserver.com/news/business/article264041561.html">Hub RTP update: Park’s first apartments coming soon to planned urban campus</a></li>
+                  <li><a class="hover:underline focus:underline" href="https://wraltechwire.com/2022/11/03/horseshoe-at-hub-rtp-lands-first-office-tenant-data443/">Data443 announced as the first tenant for Horseshoe at Hub RTP</a></li>
                 </ul>
               </div>
-              <div class="col-span-4">
-                <h3 class="text-xl font-bold text-light-blue">Local Brand Partnerships</h3>
-                <ul class="list-disc pl-4">
-                  <li class="mb-4">Bee Downtown</li>
-                  <li class="mb-4">Usu Candles</li>
-                  <li class="mb-4">Mystic Farms: Hubourban</li>
+            </div>
+            <div class="grid gap-6 md:gap-y-0 md:grid-cols-12">
+              <div class="col-span-12">
+                <h3 class="text-xl font-bold text-light-blue mb-0">Loved Locally</h3>
+              </div>
+              <div class="col-span-12 md:col-span-6">
+                <p class="mt-0">This year, we partnered up with local fan favorites to amplify Hub’s promise as a destination centered around community, nature, and the best of North Carolina.</p>
+                <ul class="list-disc pl-4 mb-4">
+                  <li>Bee Downtown</li>
+                  <li>Usu Candles</li>
+                  <li>Mystic Farms: Hubourban</li>
+                  <li>Durham Bulls</li>
                 </ul>
+                <div class="grid gap-6 grid-cols-3">
+                  <img class="lazyload" data-src="/assets/images/other/bee-downtown.jpg" data-expand="-10" alt="Jars of honey from Bee Downtown.">
+                  <img class="lazyload" data-src="/assets/images/other/usu-candle.jpg" data-expand="-10" alt="A person holding a Usu candle.">
+                  <img class="lazyload" data-src="/assets/images/other/mystic-bourbon.jpg" data-expand="-10" alt="A bottle of Mystic bourbon next to a handcrafted mixed drink.">
+                </div>
+              </div>
+              <div class="col-span-12 md:col-span-6">
+                <img class="lazyload md:w-full md:h-full md:object-cover" data-src="/assets/images/other/durham-bulls.jpg" data-expand="-10" alt="Hub RTP team members hanging out infront of the Durham Bulls stadium.">
               </div>
             </div>
           </div>
@@ -271,7 +279,7 @@
           <p>During our 300 in 100 RTP company interviews, we learned that diversity, equity, inclusion and belonging is crucial to the success of our stakeholders. As we blur silos across RTP companies to collaborate and synergize our efforts, we benefit from the resulting advancement in talent attraction, contributing to better business outcomes.</p>
 
           <h3 class="text-dark-blue font-bold text-2xl">STEM RTP</h3>
-          <p>The Research Triangle Park Charitable Fund, in partnership with the RTP Diversity, Equity and Inclusion (DEI) Collective announced the second cohort for the STEM RTP grant.⁠⁠These funds are awarded to programs working at the intersection of STEM and diversity, equity, and inclusion.</p>
+          <p>The Research Triangle Park Charitable Fund, in partnership with the RTP Diversity, Equity and Inclusion (DEI) Collective announced the second cohort for the STEM RTP grant.⁠⁠These funds are awarded to programs working at the intersection of STEM and diversity, equity and inclusion.</p>
         </div>
 
         <h4 class="text-dark-blue font-bold text-xl">2022 Recipients</h4>
@@ -294,7 +302,7 @@
 
         <div class="max-w-6xl">
           <h3 class="text-dark-blue text-2xl font-bold">RTP DEI Collective</h3>
-          <p>Founded in the fall of 2019 with the goal of uniting and amplifying RTP companies’ diversity, equity, and inclusion efforts, the RTP DEI Collective has grown to include more than 30 companies and partners. The Collective works to:</p>
+          <p>Founded in the fall of 2019 with the goal of uniting and amplifying RTP companies’ diversity, equity and inclusion efforts, the RTP DEI Collective has grown to include more than 30 companies and partners. The Collective works to:</p>
 
           <div class="grid gap-16 md:grid-cols-12 my-8">
             <ul class="list-triangles list-triangles--dark-blue md:col-span-6">
@@ -333,7 +341,7 @@
 
         <div>
           <h4 class="text-dark-blue text-xl font-bold mt-4">Breaking the Bias Annual Event</h4>
-          <img class="max-w-xl lazyload" data-src="/assets/images/other/IWD-44.jpg" alt="" data-expand="-10">
+          <img class="max-w-xl w-full lazyload" data-src="/assets/images/other/IWD-44.jpg" alt="" data-expand="-10">
           <p>On International Women’s Day, we asked women leaders across RTP to share their thoughts about success, their leadership styles and the benefits of working within RTP.</p>
           <p><a class="underline" href="https://wraltechwire.com/2022/03/09/women-of-rtp-demand-that-execs-break-the-bias-do-more-to-improve-equality/">Check out what we learned</a></p>
         </div>

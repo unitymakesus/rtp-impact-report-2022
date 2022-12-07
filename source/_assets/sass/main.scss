@@ -144,7 +144,11 @@ p {
 
     [role="tablist"][aria-orientation="horizontal"] {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+
+      @media screen and (min-width: 992px) {
+        flex-direction: row;
+      }
     }
 
     [role="tab"] {
