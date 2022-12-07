@@ -780,10 +780,6 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -791,6 +787,10 @@ video {
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .font-bold{
   font-weight: 700;
@@ -924,7 +924,13 @@ p{
 
 .js-focus-visible .focus-visible {
   outline: 2px dotted currentColor;
+}
+.js-focus-visible .focus-visible:not(.btn-offset) {
   outline-offset: 2px;
+}
+
+.btn-offset {
+  outline-offset: -4px;
 }
 
 .dialog-container,
@@ -998,12 +1004,12 @@ p{
 .tabs--horizontal {
   display: block;
 }
-.tabs--horizontal [role=tablist][aria-orientation=horizontal] {
+.tabs--horizontal [role=tablist][aria-orientation=horizontal]{
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 992px) {
-  .tabs--horizontal [role=tablist][aria-orientation=horizontal] {
+@media (min-width: 640px){
+  .tabs--horizontal [role=tablist][aria-orientation=horizontal]{
     flex-direction: row;
   }
 }

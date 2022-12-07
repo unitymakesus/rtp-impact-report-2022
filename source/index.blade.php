@@ -19,8 +19,8 @@
         <div class="text-purple">
           <h3 class="font-bold text-6xl mb-4">2022 Growth by the Numbers</h3>
           <ul class="grid gap-8 lg:grid-cols-12 list-none p-0 m-0">
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">1,600</strong> Jobs Announced</li>
-            <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">$887.1M</strong> Investments Announced</li>
+            {{-- <li class="card bg-black bg-opacity-5 p-8 lg:col-span-6 font-bold text-xl"><strong class="block text-5xl">1,800</strong> Jobs Announced</li> --}}
+            {{-- <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">$887.1M</strong> Investments Announced</li> --}}
             <li class="card bg-black bg-opacity-5 p-8 lg:col-span-4 font-bold text-xl"><strong class="block text-5xl">42%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
           </ul>
         </div>
@@ -119,7 +119,7 @@
             </div>
 
             <h4 class="text-xl font-bold text-red">James Beard Finalists</h4>
-            <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media, and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability, and culture.</p>
+            <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability and culture.</p>
             <div class="grid gap-6 sm:grid-cols-3">
               <figure class="bg-white">
                 <img class="lazyload" data-src="/assets/images/logos/fullsteam.png" alt="Fullsteam Brewery" data-expand="-10">
