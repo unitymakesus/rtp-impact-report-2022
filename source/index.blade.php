@@ -2,7 +2,7 @@
 
 @section('body')
   @include('_partials.header')
-  <main class="overflow-x-hidden">
+  <main class="overflow-x-hidden" role="main">
     <section class="py-16">
       <div class="container">
         <h2 class="text-5xl lg:text-7xl xl:text-9xl font-bold">At-a-Glance</h2>
@@ -34,9 +34,21 @@
 
         <div class="tabs tabs--horizontal mt-12">
           <div role="tablist" aria-orientation="horizontal" aria-label="">
-            <button role="tab" class="text-3xl font-bold text-red" id="tab-boxyard" aria-selected="true" aria-controls="tabpanel-boxyard">Boxyard RTP</button>
-            <button role="tab" class="text-3xl font-bold text-light-blue" id="tab-hub" aria-selected="false" aria-controls="tabpanel-hub">Hub RTP</button>
-            <button role="tab" class="text-3xl font-bold text-mint" id="tab-frontier" aria-selected="false" aria-controls="tabpanel-frontier">Frontier RTP</button>
+            <h3>
+              <button role="tab" class="text-3xl font-bold text-red" id="tab-boxyard" aria-selected="true" aria-controls="tabpanel-boxyard">
+                Boxyard RTP
+              </button>
+            </h3>
+            <h3>
+              <button role="tab" class="text-3xl font-bold text-light-blue" id="tab-hub" aria-selected="false" aria-controls="tabpanel-hub">
+                Hub RTP
+              </button>
+            </h3>
+            <h3>
+              <button role="tab" class="text-3xl font-bold text-mint" id="tab-frontier" aria-selected="false" aria-controls="tabpanel-frontier">
+                Frontier RTP
+              </button>
+            </h3>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-boxyard" aria-labelledby="tab-boxyard">
             <p>We celebrated 1 year of small businesses doing big things at Boxyard! This hyper-local cargotecture is a community made up of a diverse mix of entrepreneurs, artists and creatives.</p>
@@ -57,7 +69,7 @@
               <img class="lazyload" data-src="/assets/images/boxyard/IWD-65.jpg" alt="" data-expand="-10">
             </div>
 
-            <h3 class="text-xl font-bold text-red">Boxyard Turns One</h3>
+            <h4 class="text-xl font-bold text-red">Boxyard Turns One</h4>
             <div class="mb-8">
               <div class="plyr__video-embed">
                 <iframe src="https://www.youtube.com/embed/O3AkME9hB-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -70,7 +82,7 @@
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-8">
-                <h3 class="text-xl font-bold text-red">2022 Growth by the Numbers</h3>
+                <h4 class="text-xl font-bold text-red">2022 Growth by the Numbers</h4>
                 <div class="grid gap-6 sm:grid-cols-2 max-w-xl">
                   <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
                     <strong class="block text-5xl">40</strong> Upcycled Shipping Containers
@@ -87,7 +99,7 @@
                 </div>
               </div>
               <div class="col-span-4">
-                <h3 class="text-xl font-bold text-red">Awards & Accolades</h3>
+                <h4 class="text-xl font-bold text-red">Awards & Accolades</h4>
                 <ul class="list-triangles list-triangles--red">
                   <li>TCREW Champion Award: Best Development Project 2022</li>
                   <li>Triangle Business Journal’s 2022 Space Awards for Top Retail Development (Paywall)</li>
@@ -106,8 +118,8 @@
               </div>
             </div>
 
-            <h3 class="text-xl font-bold text-red">James Beard Finalists</h3>
-            <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability and culture.</p>
+            <h4 class="text-xl font-bold text-red">James Beard Finalists</h4>
+            <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media, and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability, and culture.</p>
             <div class="grid gap-6 sm:grid-cols-3">
               <figure class="bg-white">
                 <img class="lazyload" data-src="/assets/images/logos/fullsteam.png" alt="Fullsteam Brewery" data-expand="-10">
@@ -117,7 +129,7 @@
               </figure>
             </div>
 
-            <h3 class="text-xl font-bold text-red">PopBox Second Cohort</h3>
+            <h4 class="text-xl font-bold text-red">PopBox Second Cohort</h4>
             <p>PopBox is a 320-square-foot rotating shipping container backed by a micro-grant from NC IDEA and Research Triangle Foundation. This initiative aims to scale up women and BIPOC-owned businesses. Durham Tech has also partnered with Boxyard RTP to provide technical assistance and small business counseling to the 2022-2023 selected cohort.</p>
             <p>2021-22 Recipients: Thirteen West, Skyelight Living, Pop Box Gallery, Be Like Missy</p>
             <div class="grid gap-6 sm:grid-cols-2">
@@ -147,7 +159,7 @@
               <img class="lazyload" data-src="/assets/images/hub/DJI_0152.jpg" alt="" data-expand="-10">
             </div>
 
-            <h3 class="text-xl font-bold text-light-blue">2022 Growth by the Numbers</h3>
+            <h4 class="text-xl font-bold text-light-blue">2022 Growth by the Numbers</h4>
             <div class="grid gap-6 sm:grid-cols-2 max-w-xl">
               <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
                 <strong class="block text-5xl">100</strong> Acres
@@ -163,28 +175,28 @@
               </div>
             </div>
 
-            <h3 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h3>
+            <h4 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h4>
             <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/6NvQR2wsQCQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p>Revealed at the Horseshoe Groundbreaking on October 18, Joshua Rowsey shares what Hub RTP is all about with this spoken word piece. Joshua is a recording artist, actor, writer, and educator from North Carolina and program director of Durham-based Blackspace.</p>
 
-            <h3 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h3>
+            <h4 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h4>
             <div class="plyr__video-embed">
-              <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/fn4UN_t75w4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
 
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-6">
-                <h3 class="text-xl font-bold text-light-blue">Experience Center</h3>
+                <h4 class="text-xl font-bold text-light-blue">Experience Center</h4>
                 <ul class="list-triangles list-triangles--light-blue">
                   <li>We opened an immersive Hub Experience Center equipped with a 3D model and VR walkthrough of the development, a display wall with branded items exhibiting Hub’s energy, a breezeway for events, and AV displays featuring travel times and stock tickers of RTP companies.</li>
                   <li>In April we welcomed <a href="https://naioprd.org/" target="_blank">NAIOP Raleigh Durham</a> and nearly 300 guests on their Bus Tour through the Triangle</li>
                 </ul>
               </div>
               <div class="col-span-6">
-                <h3 class="text-xl font-bold text-light-blue">Huburban Takes Off</h3>
+                <h4 class="text-xl font-bold text-light-blue">Awards & Accolades</h4>
                 <ul class="list-triangles list-triangles--light-blue">
                   <li>Huburban Carpool Convos: Take a tour of the Triangle with us and some of the Triangle’s most notable leaders. Here, we discuss what Hub RTP means for our growing region.</li>
                 </ul>
@@ -192,7 +204,7 @@
             </div>
             <div class="grid gap-4 md:grid-cols-12">
               <div class="col-span-12">
-                <h3 class="text-xl font-bold text-light-blue">Announcements</h3>
+                <h4 class="text-xl font-bold text-light-blue">Announcements</h4>
                 <ul class="list-triangles list-triangles--light-blue md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-4">
                   <li><a class="hover:underline focus:underline" href="https://wraltechwire.com/2022/05/24/we-will-double-in-population-so-what-must-triangle-do-research-triangle-foundation-ceo-says/">We will double in population, so what must the Triangle do? Research Triangle Foundation CEO says…</a></li>
                   <li><a class="hover:underline focus:underline" href="https://wraltechwire.com/2022/10/17/the-future-of-rtp-horseshoe-at-hub-rtp-celebrates-groundbreaking-on-tuesday/">The future of RTP: Horseshoe at Hub RTP celebrates groundbreaking on Tuesday</a></li>
@@ -206,7 +218,7 @@
             </div>
             <div class="grid gap-6 md:gap-y-0 md:grid-cols-12">
               <div class="col-span-12">
-                <h3 class="text-xl font-bold text-light-blue mb-0">Loved Locally</h3>
+                <h4 class="text-xl font-bold text-light-blue mb-0">Loved Locally</h4>
               </div>
               <div class="col-span-12 md:col-span-6">
                 <p class="mt-0">This year, we partnered up with local fan favorites to amplify Hub’s promise as a destination centered around community, nature, and the best of North Carolina.</p>
@@ -245,7 +257,7 @@
               <img class="lazyload" data-src="/assets/images/frontier/DSC02590.jpg" alt="" data-expand="-10">
             </div>
 
-            <h3 class="text-xl font-bold text-mint">2022 Growth by the Numbers</h3>
+            <h4 class="text-xl font-bold text-mint">2022 Growth by the Numbers</h4>
             <div class="grid gap-6 sm:grid-cols-2 max-w-xl">
               <div class="bg-slate-alt text-gray p-8 font-bold text-xl">
                 <strong class="block text-5xl">+200</strong> Free Networking, Fitness, and Educational Events Anually
@@ -261,11 +273,12 @@
               </div>
             </div>
 
-            <h3 class="text-xl font-bold text-mint">Caffeinate Your Career</h3>
+            <h4 class="text-xl font-bold text-mint">Caffeinate Your Career</h4>
             <p>Caffeinate your Career is a YouTube series that gives an inside look to different career pathways from founders and entrepreneurs at Frontier RTP.</p>
-            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <h3 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h3>
+
+            <h4 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h4>
             <p><a class="underline" href="https://wraltechwire.com/2022/08/29/inside-frontier-rtp-our-latest-triangle-startup-guide-exclusive-report/" target="_blank">WRAL Startup Guide: Inside Frontier RTP</a></p>
           </div>
         </div>
@@ -289,13 +302,13 @@
               <figure class="flex items-center justify-center relative min-h-[300px] bg-black bg-opacity-5">
                 <img class="lazyload absolute w-full h-full object-contain object-center max-w-[400px] p-8 mix-blend-multiply" data-src="{{ $recipient->logo }}" alt="" data-expand="-10">
               </figure>
-              <h4 class="mt-4">
+              <span class="mt-4 block">
                 @if ($recipient->link)
                   <a class="a11y-link-wrap hover:underline focus:underline" href="{{ $recipient->link }}">{{ $recipient->title }}</a>
                 @else
                   {{ $recipient->title }}
                 @endif
-              </h4>
+              </span>
             </article>
           @endforeach
         </div>
@@ -330,7 +343,7 @@
                   <h4 class="text-dark-blue text-xl font-bold mt-0">Crossroads Podcast</h4>
                   <p class="font-bold">Meet Ray Trapp and Sarah Chick at the crossroads of it all. Everything from DEI, talent, the Park, the Triangle Region and beyond.</p>
                 </div>
-                <a class="inline-block bg-slate text-white p-4 self-start hover:bg-slate-900 focus:bg-slate-900 transition-colors duration-300" href="https://podcasts.apple.com/us/podcast/crossroads-rtp/id1609428599">Listen to the Crossroads Podcast</a>
+                <a class="inline-block bg-slate text-white p-4 self-start hover:bg-slate-900 focus:bg-slate-900 btn-offset transition-colors duration-300" href="https://podcasts.apple.com/us/podcast/crossroads-rtp/id1609428599">Listen to the Crossroads Podcast</a>
               </div>
             </div>
             <figure class="col-span-4">
@@ -378,9 +391,9 @@
           <div class="max-w-6xl">
             <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
             <ul class="grid gap-8 md:grid-cols-12 list-none p-0 m-0">
-              <li class="card text-dark-blue bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-lg">Facilitate collaboration between the Triangle universities.</li>
-              <li class="card text-red bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-lg">Promote cooperation between universities and industry.</li>
-              <li class="card text-purple bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-lg">Create an economic impact for the residents of North Carolina.</li>
+              <li class="card text-dark-blue bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Facilitate collaboration between the Triangle universities.</li>
+              <li class="card text-red bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Promote cooperation between universities and industry.</li>
+              <li class="card text-purple bg-black bg-opacity-5 p-6 md:col-span-4 font-bold text-xl">Create an economic impact for the residents of North Carolina.</li>
             </ul>
           </div>
 
@@ -402,7 +415,7 @@
               </div>
               <div class="flex sm:flex-col justify-end col-span-3 mt-4 sm:mt-0">
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eecd09ba159047b94f51a2c54_9fd04dd4fb" tabindex="-1" value=""></div>
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="inline-block bg-slate text-white py-2 px-16 self-start hover:bg-slate-900 focus:bg-slate-900 transition-colors duration-300 cursor-pointer">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="inline-block bg-slate text-white py-2 px-16 self-start hover:bg-slate-900 focus:bg-slate-900 btn-offset transition-colors duration-300 cursor-pointer">
               </div>
             </div>
           </form>

@@ -1,9 +1,9 @@
-<footer class="bg-black text-white py-4">
+<footer class="bg-black text-white py-4" role="contentinfo">
   <div class="container">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8">
       <div class="md:col-span-4">
         <a href="https://www.rtp.org/">
-          <img class="lazyload" data-src="/assets/images/rtp-signature-horizontal.png" alt="Research Triangle Park" width="260" data-expand="-10">
+          <img class="lazyload inline-block" data-src="/assets/images/rtp-signature-horizontal.png" alt="Research Triangle Park" width="260" data-expand="-10">
         </a>
       </div>
       <div class="md:col-span-8 flex flex-col md:flex-row md: md:items-center md:justify-end md:text-right">

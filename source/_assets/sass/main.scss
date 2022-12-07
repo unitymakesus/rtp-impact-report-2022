@@ -69,7 +69,14 @@ p {
 
 .js-focus-visible .focus-visible {
   outline: 2px dotted currentColor;
-  outline-offset: 2px;
+
+  &:not(.btn-offset) {
+    outline-offset: 2px;
+  }
+}
+
+.btn-offset {
+  outline-offset: -4px;
 }
 
 .dialog-container,
@@ -143,12 +150,7 @@ p {
     display: block;
 
     [role="tablist"][aria-orientation="horizontal"] {
-      display: flex;
-      flex-direction: column;
-
-      @media screen and (min-width: 992px) {
-        flex-direction: row;
-      }
+      @apply flex flex-col sm:flex-row;
     }
 
     [role="tab"] {
