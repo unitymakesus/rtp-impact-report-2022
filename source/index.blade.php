@@ -362,7 +362,7 @@
             @foreach ($news_items as $news)
               <article class="relative sm:col-span-6 lg:col-span-4">
                 <figure class="relative h-0 pb-48 overflow-hidden mb-2">
-                  <img class="lazyload absolute object-cover w-full h-full" src="{{ $news->image }}" alt="">
+                  <img class="lazyload absolute object-cover w-full h-full" data-src="{{ $news->image }}" alt="" data-expand="-10">
                 </figure>
                 <h4 class="inline-block mt-0">
                   <a class="hover:underline focus:underline a11y-link-wrap" href="{{ $news->url }}">{{ $news->title }}</a>
