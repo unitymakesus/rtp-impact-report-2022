@@ -38,6 +38,16 @@ const initSliders = (sliders) => {
       mobileFirst: true,
     });
   });
+
+  // Refresh sliders on tab expand.
+  const tabElems = document.querySelectorAll('.tabs button[role="tab"]');
+  tabElems.forEach(tabElem => {
+    tabElem.addEventListener('click', () => {
+      sliders.forEach(slider => {
+        $(slider).slick('refresh');
+      });
+    });
+  });
 }
 
 export default initSliders;
