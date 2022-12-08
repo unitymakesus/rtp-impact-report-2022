@@ -46,19 +46,19 @@
             <p>We celebrated 1 year of small businesses doing big things at Boxyard! This hyper-local cargotecture is a community made up of a diverse mix of entrepreneurs, artists and creatives.</p>
 
             <div class="slider">
-              <img class="lazyload" data-src="/assets/images/boxyard/IMG_9321.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/SoapBox Comedy Show 2.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/SoapBox Comedy Show 1.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/SlowArtTour-ArtGallery-PopBox.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/ArtInBloom.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/8BP08134.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/8BP08822.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/8BP08866.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/20220604-8BP08341.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/20220604-8BP08393.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/20220604-8BP00140.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/IWD-80.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/boxyard/IWD-65.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/IMG_9321.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/SoapBox Comedy Show 2.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/SoapBox Comedy Show 1.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/SlowArtTour-ArtGallery-PopBox.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/ArtInBloom.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/8BP08134.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/8BP08822.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/8BP08866.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/20220604-8BP08341.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/20220604-8BP08393.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/20220604-8BP00140.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/IWD-80.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/boxyard/IWD-65.jpg" alt="" data-expand="-10">
             </div>
 
             <h4 class="text-xl font-bold text-red">Boxyard Turns One</h4>
@@ -114,10 +114,10 @@
             <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability and culture.</p>
             <div class="grid gap-6 sm:grid-cols-3">
               <figure class="bg-white">
-                <img class="lazyload" data-src="/assets/images/logos/fullsteam.png" alt="Fullsteam Brewery" data-expand="-10">
+                <img class="lazyload" data-src="/2022/assets/images/logos/fullsteam.png" alt="Fullsteam Brewery" data-expand="-10">
               </figure>
               <figure class="bg-white">
-                <img class="lazyload" data-src="/assets/images/logos/lawrence-bbq.png" alt="Lawrence BBQ" data-expand="-10">
+                <img class="lazyload" data-src="/2022/assets/images/logos/lawrence-bbq.png" alt="Lawrence BBQ" data-expand="-10">
               </figure>
             </div>
 
@@ -125,30 +125,30 @@
             <p>PopBox is a 320-square-foot rotating shipping container backed by a micro-grant from NC IDEA and Research Triangle Foundation. This initiative aims to scale up women and BIPOC-owned businesses. Durham Tech has also partnered with Boxyard RTP to provide technical assistance and small business counseling to the 2022-2023 selected cohort.</p>
             <p>2021-22 Recipients: Thirteen West, Skyelight Living, Pop Box Gallery, Be Like Missy</p>
             <div class="grid gap-6 sm:grid-cols-2">
-              <img class="lazyload" data-src="/assets/images/popbox/hummingbird-candle-co.jpeg" alt="Hummingbird Candle Co." data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/popbox/second-hand-concession-stand.jpeg" alt="2nd Hand Concession Stand" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/popbox/personality.jpeg" alt="PerSONALIty Designs" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/popbox/the-tatted-potter.jpeg" alt="The Tatted Potter" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/popbox/hummingbird-candle-co.jpeg" alt="Hummingbird Candle Co." data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/popbox/second-hand-concession-stand.jpeg" alt="2nd Hand Concession Stand" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/popbox/personality.jpeg" alt="PerSONALIty Designs" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/popbox/the-tatted-potter.jpeg" alt="The Tatted Potter" data-expand="-10">
             </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-hub" aria-labelledby="tab-hub" hidden>
             <p>Welcome to Research Triangle Park’s vibrant downtown, Hub RTP. This 100-acre, $1.5B project, will transform RTP into a destination where people can live, work, play, sleep, and stay. This year, we broke ground on a 125,000 square foot office-over-retail trio of buildings named Horseshoe. With construction underway, we anticipate sharing more announcements on residential construction starts, tenants who are moving in, and more from our hotel developer.</p>
 
             <div class="slider">
-              <img class="lazyload" data-src="/assets/images/hub/DSC09111.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC04128.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC04064.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC03976.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC03420 (2).jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC04031.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC03880.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC03509.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC09259.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC09507 (2).jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC09146.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC09160 (1).jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DSC09091 (1).jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/hub/DJI_0152.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC09111.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC04128.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC04064.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC03976.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC03420 (2).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC04031.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC03880.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC03509.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC09259.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC09507 (2).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC09146.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC09160 (1).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DSC09091 (1).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/hub/DJI_0152.jpg" alt="" data-expand="-10">
             </div>
 
             <h4 class="text-xl font-bold text-light-blue">2022 Growth by the Numbers</h4>
@@ -221,13 +221,13 @@
                   <li>Durham Bulls</li>
                 </ul>
                 <div class="grid gap-6 grid-cols-3">
-                  <img class="lazyload" data-src="/assets/images/other/bee-downtown.jpg" data-expand="-10" alt="Jars of honey from Bee Downtown.">
-                  <img class="lazyload" data-src="/assets/images/other/usu-candle.jpg" data-expand="-10" alt="A person holding a Usu candle.">
-                  <img class="lazyload" data-src="/assets/images/other/mystic-bourbon.jpg" data-expand="-10" alt="A bottle of Mystic bourbon next to a handcrafted mixed drink.">
+                  <img class="lazyload" data-src="/2022/assets/images/other/bee-downtown.jpg" data-expand="-10" alt="Jars of honey from Bee Downtown.">
+                  <img class="lazyload" data-src="/2022/assets/images/other/usu-candle.jpg" data-expand="-10" alt="A person holding a Usu candle.">
+                  <img class="lazyload" data-src="/2022/assets/images/other/mystic-bourbon.jpg" data-expand="-10" alt="A bottle of Mystic bourbon next to a handcrafted mixed drink.">
                 </div>
               </div>
               <div class="col-span-12 md:col-span-6">
-                <img class="lazyload md:w-full md:h-full md:object-cover" data-src="/assets/images/other/durham-bulls.jpg" data-expand="-10" alt="Hub RTP team members hanging out infront of the Durham Bulls stadium.">
+                <img class="lazyload md:w-full md:h-full md:object-cover" data-src="/2022/assets/images/other/durham-bulls.jpg" data-expand="-10" alt="Hub RTP team members hanging out infront of the Durham Bulls stadium.">
               </div>
             </div>
           </div>
@@ -235,18 +235,18 @@
             <p>Launched in 2015, this innovation community offers free coworking and events designed for people to connect and grow professionally. Once an old IBM campus, the Frontier’s indoor and outdoor office and lab space is home to a third of RTP companies!</p>
 
             <div class="slider">
-              <img class="lazyload" data-src="/assets/images/frontier/FQ5yVcMWYAAJiFK.jpeg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/FUlQGD_WQAI7qf7.jpeg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/IMG_0019 (1).jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/IMG_9920.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/IMG_9664.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/56-IMG_1474.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/96-IMG_1521.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/OTM-Emotional-IQ.JPG" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/DorianBolden-16.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/IWD-22-v2.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/RyanTimms-4.jpg" alt="" data-expand="-10">
-              <img class="lazyload" data-src="/assets/images/frontier/DSC02590.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/FQ5yVcMWYAAJiFK.jpeg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/FUlQGD_WQAI7qf7.jpeg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/IMG_0019 (1).jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/IMG_9920.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/IMG_9664.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/56-IMG_1474.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/96-IMG_1521.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/OTM-Emotional-IQ.JPG" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/DorianBolden-16.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/IWD-22-v2.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/RyanTimms-4.jpg" alt="" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/frontier/DSC02590.jpg" alt="" data-expand="-10">
             </div>
 
             <h4 class="text-xl font-bold text-mint">2022 Growth by the Numbers</h4>
@@ -320,7 +320,7 @@
             </ul>
 
             <div class="md:col-span-6">
-              <img class="lazyload" data-src="/assets/images/rtp-the-diversity-movement.png" alt="RTP and The Diversity Movement" data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/rtp-the-diversity-movement.png" alt="RTP and The Diversity Movement" data-expand="-10">
               <h4 class="text-dark-blue text-xl font-bold mt-4">The Diversity Movement</h4>
               <p>The collaboration between The Diversity Movement and RTP DEI Collective creates a powerful partnership for Research Triangle Park (RTP) companies and their employees to help illuminate the true nature of the Research Triangle as a welcoming and diverse community.</p>
             </div>
@@ -339,14 +339,14 @@
               </div>
             </div>
             <figure class="col-span-4">
-              <img class="lazyload" data-src="/assets/images/rtp-crossroads-podcast.jpg" alt="Cover art for the RTP Crossroads Podcast with Ray Trapp." data-expand="-10">
+              <img class="lazyload" data-src="/2022/assets/images/rtp-crossroads-podcast.jpg" alt="Cover art for the RTP Crossroads Podcast with Ray Trapp." data-expand="-10">
             </figure>
           </div>
         </article>
 
         <div>
           <h4 class="text-dark-blue text-xl font-bold mt-4">Breaking the Bias Annual Event</h4>
-          <img class="max-w-xl w-full lazyload" data-src="/assets/images/other/IWD-44.jpg" alt="" data-expand="-10">
+          <img class="max-w-xl w-full lazyload" data-src="/2022/assets/images/other/IWD-44.jpg" alt="" data-expand="-10">
           <p>On International Women’s Day, we asked women leaders across RTP to share their thoughts about success, their leadership styles and the benefits of working within RTP.</p>
           <p><a class="underline" href="https://wraltechwire.com/2022/03/09/women-of-rtp-demand-that-execs-break-the-bias-do-more-to-improve-equality/">Check out what we learned</a></p>
         </div>
