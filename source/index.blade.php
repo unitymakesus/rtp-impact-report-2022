@@ -10,10 +10,10 @@
         <div class="text-red mb-16">
           <h3 class="font-bold text-6xl mb-4">RTP is</h3>
           <ul class="grid gap-8 grid-cols-12 list-none p-0 m-0">
-            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-2 lg:col-span-3 font-bold text-xl"><strong class="block text-5xl">7,000</strong> Acres</li>
-            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-2 lg:col-span-3 font-bold text-xl"><strong class="block text-5xl">375+</strong> Established and Startup Companies</li>
-            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-2 lg:col-span-3 font-bold text-xl"><strong class="block text-5xl">60,000+</strong> Employees</li>
-            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-2 lg:col-span-3 font-bold text-xl"><strong class="block text-5xl">42%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
+            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-6 xl:col-span-3 font-bold text-xl"><strong class="block text-5xl">7,000</strong> Acres</li>
+            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-6 xl:col-span-3 font-bold text-xl"><strong class="block text-5xl">375+</strong> Established and Startup Companies</li>
+            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-6 xl:col-span-3 font-bold text-xl"><strong class="block text-5xl">60,000+</strong> Employees</li>
+            <li class="card bg-black bg-opacity-5 p-8 col-span-12 sm:col-span-6 xl:col-span-3 font-bold text-xl"><strong class="block text-5xl">42%</strong> Minority & Women-Owned Businesses of RTF Vendor Contracts</li>
           </ul>
         </div>
       </div>
