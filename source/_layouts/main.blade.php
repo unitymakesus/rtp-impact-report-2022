@@ -22,11 +22,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/2022/assets/images/favicon/favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#000">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    <link rel="stylesheet" href="/2022/{{ mix('css/main.css', 'assets/build') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+    <script defer src="/2022/{{ mix('js/main.js', 'assets/build') }}"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG6GRWCE4F"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
