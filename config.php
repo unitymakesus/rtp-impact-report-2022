@@ -1,10 +1,11 @@
 <?php
 
 return [
-    'production' => false,
-    'baseUrl' => '',
-    'title' => 'Community Impact Report',
-    'description' => 'Website description.',
+    'production'  => false,
+    'baseUrl'     => 'https://rtp-impact-report-2022.test',
+    'prodUrl'     => 'https://impact-report.rtp.org/2022',
+    'title'       => '2022 Community Impact Report',
+    'description' => 'A selection of stories highlighting people, partnerships and developments that united our community of 375+ companies and 60,000+ employees in 2022.',
     'collections' => [
         'news_items' => [
             'items' => [
@@ -44,57 +45,57 @@ return [
             'items' => [
                 [
                     'title' => 'North Carolina Central University Biomanufacturing Research Institute and Technology Enterprise (BRITE) Institute',
-                    'logo'  => '/assets/images/logos/brite.png',
+                    'logo'  => '/2022/assets/images/logos/brite.png',
                     'link'  => 'https://www.nccu.edu/research/brite',
                 ],
                 [
                     'title' => 'Charles Hamilton Houston Foundation: Champion Awardee',
-                    'logo'  => '/assets/images/logos/charles-hamilton-houston-foundation.png',
+                    'logo'  => '/2022/assets/images/logos/charles-hamilton-houston-foundation.png',
                     'link'  => 'https://www.charleshamiltonhoustonfoundation.org',
                 ],
                 [
                     'title' => 'WomenNC',
-                    'logo'  => '/assets/images/logos/womennc.png',
+                    'logo'  => '/2022/assets/images/logos/womennc.png',
                     'link'  => 'https://www.womennc.org',
                 ],
                 [
                     'title' => 'Engineering World Health',
-                    'logo'  => '/assets/images/logos/engineering-world-health.png',
+                    'logo'  => '/2022/assets/images/logos/engineering-world-health.png',
                     'link'  => 'https://www.ewh.org',
                 ],
                 [
                     'title' => 'Kenan Fellows Program for Teacher Leadership, North Carolina State University Foundation',
-                    'logo'  => '/assets/images/logos/kenan-fellows-program.png',
+                    'logo'  => '/2022/assets/images/logos/kenan-fellows-program.png',
                     'link'  => 'https://kenan.ncsu.edu/initiative/kenan-fellows-program-for-curriculum-and-leadership-development/',
                 ],
                 [
                     'title' => 'Code the Dream',
-                    'logo'  => '/assets/images/logos/code-the-dream.png',
+                    'logo'  => '/2022/assets/images/logos/code-the-dream.png',
                     'link'  => 'https://codethedream.org',
                 ],
                 [
                     'title' => 'Empower ALL',
-                    'logo'  => '/assets/images/logos/empower-all-inc.png',
+                    'logo'  => '/2022/assets/images/logos/empower-all-inc.png',
                     'link'  => 'https://www.empower-allinc.org',
                 ],
                 [
                     'title' => 'Kramdem Institute',
-                    'logo'  => '/assets/images/logos/kramden-institute.png',
+                    'logo'  => '/2022/assets/images/logos/kramden-institute.png',
                     'link'  => 'https://kramden.org',
                 ],
                 [
                     'title' => 'ISLA',
-                    'logo'  => '/assets/images/logos/isla-foundation.png',
+                    'logo'  => '/2022/assets/images/logos/isla-foundation.png',
                     'link'  => 'https://islafoundation.com',
                 ],
                 [
                     'title' => 'Pupasas 4ED for SWIM',
-                    'logo'  => '/assets/images/logos/pupusas-for-education.png',
+                    'logo'  => '/2022/assets/images/logos/pupusas-for-education.png',
                     'link'  => 'https://www.pupusas4education.com',
                 ],
                 [
                     'title' => 'SOAR Outreach',
-                    'logo'  => '/assets/images/logos/soar-outreach.png',
+                    'logo'  => '/2022/assets/images/logos/soar-outreach.png',
                     'link'  => 'https://www.soaroutreach.com',
                 ],
             ],

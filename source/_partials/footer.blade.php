@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-x-8">
       <div class="lg:col-span-4">
         <a href="https://www.rtp.org/">
-          <img class="lazyload inline-block" data-src="/assets/images/rtp-signature-horizontal.png" alt="Research Triangle Park" width="260" data-expand="-10">
+          <img class="lazyload inline-block" data-src="/2022/assets/images/rtp-signature-horizontal.png" alt="Research Triangle Park" width="260" data-expand="-10">
         </a>
       </div>
       <div class="lg:col-span-8 flex flex-col lg:flex-row lg:items-center lg:justify-end lg:text-right">
