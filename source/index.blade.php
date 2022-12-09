@@ -62,12 +62,11 @@
             </div>
 
             <h4 class="text-xl font-bold text-red">Boxyard Turns One</h4>
-
             <div class="mb-8">
-              <lite-youtube videoid="O3AkME9hB-4" playlabel="YouTube video player"></lite-youtube>
+              <lite-youtube videoid="O3AkME9hB-4" posterquality="maxresdefault"></lite-youtube>
             </div>
             <div>
-              <lite-youtube videoid="ZtY5ZFiu0JM" playlabel="YouTube video player"></lite-youtube>
+              <lite-youtube videoid="ZtY5ZFiu0JM" posterquality="maxresdefault"></lite-youtube>
             </div>
 
             <div class="grid gap-4 md:grid-cols-12">
@@ -166,11 +165,11 @@
             </div>
 
             <h4 class="text-xl font-bold text-light-blue">This is Hub RTP by Joshua Rowsey</h4>
-            <lite-youtube videoid="6NvQR2wsQCQ" playlabel="YouTube video player"></lite-youtube>
+            <lite-youtube videoid="6NvQR2wsQCQ" posterquality="maxresdefault"></lite-youtube>
             <p>Revealed at the Horseshoe Groundbreaking on October 18, Joshua Rowsey shares what Hub RTP is all about with this spoken word piece. Joshua is a recording artist, actor, writer, and educator from North Carolina and program director of Durham-based Blackspace.</p>
 
             <h4 class="text-xl font-bold text-light-blue">The Main Attraction: Horseshoe at Hub RTP</h4>
-            <lite-youtube videoid="fn4UN_t75w4" playlabel="YouTube video player"></lite-youtube>
+            <lite-youtube videoid="fn4UN_t75w4" posterquality="maxresdefault"></lite-youtube>
             <p>See, feel, hear the vision. This year was all about spreading the word at our own backyard.</p>
 
             <div class="grid gap-4 md:grid-cols-12">
@@ -261,10 +260,7 @@
 
             <h4 class="text-xl font-bold text-mint">Caffeinate Your Career</h4>
             <p>Caffeinate your Career is a YouTube series that gives an inside look to different career pathways from founders and entrepreneurs at Frontier RTP.</p>
-            {{-- <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
-            <lite-youtube class="aspect-video w-full" videoid="videoseries?list=PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" playlabel="YouTube video player"></lite-youtube>
-
-
+            <lite-youtube videoid="RFsaVZ_qxdg" playlistid="PLQWg0VBT7RCA6jB4de_cs5AW9eVo4fCqx" posterquality="maxresdefault"></lite-youtube>
             <h4 class="text-xl font-bold text-mint">WRAL Startup Guide: Inside Frontier RTP</h4>
             <p><a class="underline" href="https://wraltechwire.com/2022/08/29/inside-frontier-rtp-our-latest-triangle-startup-guide-exclusive-report/" target="_blank">WRAL Startup Guide: Inside Frontier RTP</a></p>
           </div>
