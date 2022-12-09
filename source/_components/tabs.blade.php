@@ -8,9 +8,9 @@
   </div>
   @foreach ($lists as $list)
     <div tabindex="0" role="tabpanel" id="tabpanel-{{ $list->slug }}" aria-labelledby="tab-{{ $list->slug }}" {{ $loop->first ? '' : 'hidden' }}>
-      <div>
+      <div class="pl-[30px] md:pl-0">
         @foreach ($list->items as $group)
-          <h3 class="font-bold mb-4">{{ $group['label'] }}</h3>
+          <h3 class="font-bold mb-4 md:mt-0">{{ $group['label'] }}</h3>
           <ul class="md:columns-2 gap-3">
             @foreach ($group['names'] as $name)
               <li class="mb-4 text-sm break-inside-avoid">{{ $name }}</li>

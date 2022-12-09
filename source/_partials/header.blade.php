@@ -9,9 +9,9 @@
 
     <div class="container">
       <div class="grid gap:4 lg:grid-cols-12 border-y-2 border-current">
-        <div class="card card--lg lg:col-span-6 p-8">
+        <div class="card card--lg lg:col-span-6 py-8 px-4 lg:px-8">
           <h2 class="font-bold text-2xl mt-0">From RTP Leadership</h2>
-          <p>Research Triangle Park and its steward, Research Triangle Foundation of North Carolina, are reinventing themselves for the future. Our new downtown, Hub RTP, is an ambitious roadmap to transform RTP into a destination for people to not only work, but to live, play and stay. This year, the first anniversary of Boxyard RTP proved that our community overwhelmingly supports RTP as more than a place to work. The groundbreaking of Horseshoe and the stabilization of Frontier RTP’s startup community build on that success.</p>
+          <p>Our greatest opportunity now is to look into the future and think about the impact of adding 50% more people to the region between now and 2025. Until now, RTP has been a work venue surrounded by the communities that comprise the Triangle Region. We need to change that. We are pretty unique in that the greatest development potential for the Triangle region is right in the middle of it in RTP. We have 7,000 acres, which is about half the size of Manhattan. As a region, we need to focus on regional transportation, affordable housing, equitable public education, the environment, recreational amenities, our RDU airport and infrastructure. We need to make the right investments to ensure that the attractive characteristics of our region are sustained and enhanced as we grow.</p>
 
           <button class="underline" role="button" data-a11y-dialog-show="letter-dialog">Read the full letter</button>
         </div>
@@ -31,8 +31,9 @@
       <button class="absolute -top-12 right-8 text-3xl" type="button" data-a11y-dialog-hide aria-label="Close">
         &times;
       </button>
-      <div class="card card--lg border-y-2 border-[#74808A] text-[#74808A] p-8 mb-16">
+      <div class="card card--lg border-y-2 border-[#74808A] text-[#74808A] px-4 lg:px-8 py-8 mb-16">
         <span id="letter-dialog-title" class="h2 text-white font-bold text-2xl mt-0">From RTP Leadership</span>
+
         <div class="text-white clearfix">
           <figure class="md:max-w-[375px] xl:max-w-[570px] lg:float-right lg:ml-12 mb-12">
             <img class="grayscale mb-2" src="/2022/assets/images/rtp-leadership.jpg" alt="">
