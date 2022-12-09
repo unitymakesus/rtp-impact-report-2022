@@ -107,7 +107,7 @@
               </div>
             </div>
 
-            <h4 class="text-xl font-bold text-red">James Beard Finalists</h4>
+            <h4 class="text-xl font-bold text-red">James Beard Recognition</h4>
             <p>The James Beard Awards recognizes exceptional talent and achievement in the culinary arts, hospitality, media and broader food system, as well as a demonstrated commitment to racial and gender equity, community, sustainability and culture.</p>
             <div class="grid gap-6 grid-cols-2 sm:grid-cols-3">
               <figure class="bg-white jb-finalist">
