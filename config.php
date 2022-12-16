@@ -138,7 +138,7 @@ return [
                         ],
                     ],
                     'additional' => [
-                        'desc' => 'We want to thank the following Trustees whose terms are expiring for their commitment and service to the Research Triangle Foundation Board. Your leadership and counsel are much appreciated and have guided our success.',
+                        'desc' => 'We want to thank the following Directors whose terms are expiring for their commitment and service to the Research Triangle Foundation Board. Your leadership and counsel are much appreciated and have guided our success.',
                         'names' => [
                             'Michael J. Goodman, Senior Vice President, Capitol Broadcasting Company (CBC)',
                             'Dr. Tallman Trask, III, Executive Vice President Emeritus, Duke University'
@@ -182,7 +182,6 @@ return [
                                 'Sarah Chick, Senior Manager of Strategic Engagement',
                                 'Nicole “Nikki” Kettenhofen, Accounting Clerk',
                                 'Emily Ashby, Financial Accountant',
-                                'Raymond Trapp',
                                 'Nicole "Nikki" Kettenhofen',
                                 'Shane Walsh, Senior Account',
                                 'David Wieand, Accounting Manager',
